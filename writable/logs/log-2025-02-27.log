@@ -1,0 +1,149 @@
+CRITICAL - 2025-02-27 19:12:48 --> Class "App\Models\SendinBlue\Client\Configuration" not found
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(561): App\Models\Master_model->fSendMail('atmaramd@301io....', '<!DOCTYPE html>...', 'Your Invoice is...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-27 19:18:18 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-02-27 19:18:30 --> require(vendor/excel/autoload.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(4): require()
+#2 C:\xampp\htdocs\sahilcargo\system\Autoloader\Autoloader.php(300): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sahilcargo\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sahilcargo\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#6 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#7 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#8 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-27 19:18:38 --> Required parameter $attachment_path follows optional parameter $from_email
+#0 C:\xampp\htdocs\sahilcargo\system\Autoloader\Autoloader.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', 'C:\\xampp\\htdocs...', 336)
+#1 C:\xampp\htdocs\sahilcargo\system\Autoloader\Autoloader.php(300): include_once()
+#2 C:\xampp\htdocs\sahilcargo\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sahilcargo\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mast...')
+#4 C:\xampp\htdocs\sahilcargo\app\Controllers\BaseController.php(55): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mast...')
+#5 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-02-27 19:19:14 --> Undefined variable $from_email
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(561): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 561)
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-27 19:20:03 --> Class "App\Models\SendinBlue\Client\Configuration" not found
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(561): App\Models\Master_model->fSendMail('atmaramd@301io....', 'Member', '<!DOCTYPE html>...', 'Your Invoice is...', 'info@zeplinix.c...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-27 19:25:15 --> Class "App\Models\SendinBlue\Client\Configuration" not found
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(561): App\Models\Master_model->fSendMail('atmaramd@301io....', 'Member', '<!DOCTYPE html>...', 'Your Invoice is...', 'info@zeplinix.c...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-27 19:26:28 --> Class "App\Models\SendinBlue\Client\Configuration" not found
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(561): App\Models\Master_model->fSendMail('atmaramd@301io....', 'Member', '<!DOCTYPE html>...', 'Your Invoice is...', 'info@zeplinix.c...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-27 19:27:58 --> Class "App\Models\SendinBlue\Client\Configuration" not found
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(561): App\Models\Master_model->fSendMail('atmaramd@301io....', 'Member', '<!DOCTYPE html>...', 'Your Invoice is...', 'info@zeplinix.c...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-27 19:35:56 --> Cannot use App\Models\SendinBlue\Client\Configuration as Configuration because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-02-27 19:36:43 --> Class "App\Models\SendinBlue\Client\Configuration" not found
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(561): App\Models\Master_model->fSendMail('atmaramd@301io....', 'Member', '<!DOCTYPE html>...', 'Your Invoice is...', 'info@zeplinix.c...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-27 19:38:45 --> Class "App\Models\SendinBlue\Client\Configuration" not found
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(561): App\Models\Master_model->fSendMail('atmaramd@301io....', 'Member', '<!DOCTYPE html>...', 'Your Invoice is...', 'info@zeplinix.c...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-27 19:41:18 --> Class "App\Models\SendinBlue\Client\Configuration" not found
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(561): App\Models\Master_model->fSendMail('atmaramd@301io....', 'Member', '<!DOCTYPE html>...', 'Your Invoice is...', 'info@zeplinix.c...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-27 19:42:19 --> Class "App\Models\SendinBlue\Client\Configuration" not found
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(563): App\Models\Master_model->fSendMail('atmaramd@301io....', 'Member', '<!DOCTYPE html>...', 'Your Invoice is...', 'info@zeplinix.c...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-27 19:44:13 --> syntax error, unexpected token "="
+#0 C:\xampp\htdocs\sahilcargo\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mast...')
+#2 C:\xampp\htdocs\sahilcargo\app\Controllers\BaseController.php(55): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mast...')
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-02-27 19:44:50 --> Class "App\Models\SendinBlue\Client\Api\TransactionalEmailsApi" not found
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(563): App\Models\Master_model->fSendMail('atmaramd@301io....', 'Member', '<!DOCTYPE html>...', 'Your Invoice is...', 'info@zeplinix.c...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-27 19:49:37 --> Class "App\Models\SendinBlue\Client\Configuration" not found
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(563): App\Models\Master_model->fSendMail('atmaramd@301io....', 'Member', '<!DOCTYPE html>...', 'Your Invoice is...', 'info@zeplinix.c...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-02-27 19:50:16 --> Class "App\Models\GuzzleHttp\Client" not found
+#0 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(563): App\Models\Master_model->fSendMail('atmaramd@301io....', 'Member', '<!DOCTYPE html>...', 'Your Invoice is...', 'info@zeplinix.c...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#2 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2025-02-27 19:51:27 --> SendinBlue Email Error: [400] Client error: `POST https://api.sendinblue.com/v3/smtp/email` resulted in a `400 Bad Request` response:
+{"code":"missing_parameter","message":"tags is blank"}
+
+
+ERROR - 2025-02-27 19:53:24 --> SendinBlue Email Error: [400] Client error: `POST https://api.sendinblue.com/v3/smtp/email` resulted in a `400 Bad Request` response:
+{"code":"missing_parameter","message":"tags is blank"}
+
+
+CRITICAL - 2025-02-27 19:54:48 --> [400] Client error: `POST https://api.sendinblue.com/v3/smtp/email` resulted in a `400 Bad Request` response:
+{"code":"missing_parameter","message":"tags is blank"}
+
+
+#0 C:\xampp\htdocs\sahilcargo\vendor\sendinblue\api-v3-sdk\lib\Api\TransactionalEmailsApi.php(5416): SendinBlue\Client\Api\TransactionalEmailsApi->sendTransacEmailWithHttpInfo(Object(SendinBlue\Client\Model\SendSmtpEmail))
+#1 C:\xampp\htdocs\sahilcargo\app\Models\Master_model.php(381): SendinBlue\Client\Api\TransactionalEmailsApi->sendTransacEmail(Object(SendinBlue\Client\Model\SendSmtpEmail))
+#2 C:\xampp\htdocs\sahilcargo\app\Controllers\PurchaseOrders.php(563): App\Models\Master_model->fSendMail('atmaramd@301io....', 'Member', '<!DOCTYPE html>...', 'Your Invoice is...', 'info@zeplinix.c...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(928): App\Controllers\PurchaseOrders->fSendInvoiceEmail()
+#4 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseOrders))
+#5 C:\xampp\htdocs\sahilcargo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sahilcargo\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

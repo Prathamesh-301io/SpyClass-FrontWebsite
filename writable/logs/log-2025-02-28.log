@@ -1,0 +1,4 @@
+ERROR - 2025-02-28 12:01:54 --> SendinBlue Email Error: [400] Client error: `POST https://api.sendinblue.com/v3/smtp/email` resulted in a `400 Bad Request` response:
+{"code":"invalid_parameter","message":"valid sender email required"}
+
+

@@ -1,0 +1,60 @@
+CRITICAL - 2025-03-21 07:51:39 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH/Models/Master_model.php on line 11.
+ 1 APPPATH/Models/Master_model.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Master_model.php(11): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/i1iq60ch8o00/public_html/app/Models/Master_model.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 APPPATH/Controllers/BaseController.php(55): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController()
+ 8 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-21 07:51:46 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH/Models/Master_model.php on line 11.
+ 1 APPPATH/Models/Master_model.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Master_model.php(11): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/i1iq60ch8o00/public_html/app/Models/Master_model.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 APPPATH/Controllers/BaseController.php(55): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController()
+ 8 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-21 07:52:00 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH/Models/Master_model.php on line 11.
+ 1 APPPATH/Models/Master_model.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Master_model.php(11): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/i1iq60ch8o00/public_html/app/Models/Master_model.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 APPPATH/Controllers/BaseController.php(55): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController()
+ 8 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-21 07:52:02 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH/Models/Master_model.php on line 11.
+ 1 APPPATH/Models/Master_model.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Master_model.php(11): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/i1iq60ch8o00/public_html/app/Models/Master_model.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 APPPATH/Controllers/BaseController.php(55): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController()
+ 8 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

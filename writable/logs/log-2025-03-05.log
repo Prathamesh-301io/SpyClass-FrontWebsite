@@ -1,0 +1,114 @@
+CRITICAL - 2025-03-05 15:11:57 --> Cannot use temporary expression in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-05 15:12:21 --> Cannot use temporary expression in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-03-05 15:13:05 --> Table 'sahilcargo.setting' doesn't exist
+CRITICAL - 2025-03-05 15:13:05 --> Table 'sahilcargo.setting' doesn't exist
+#0 C:\xampp\htdocs\spy_class\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\spy_class\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\spy_class\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\spy_class\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\spy_class\app\Models\Master_model.php(172): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\spy_class\app\Views\web\front-header.php(6): App\Models\Master_model->getRecordsObj('setting', Array)
+#6 C:\xampp\htdocs\spy_class\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\spy_class\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\spy_class\system\Common.php(1271): CodeIgniter\View\View->render('web/front-heade...', Array, true)
+#9 C:\xampp\htdocs\spy_class\app\Controllers\Home.php(23): view('web/front-heade...', Array)
+#10 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\spy_class\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2025-03-05 15:23:56 --> Table 'sahilcargo.setting' doesn't exist
+CRITICAL - 2025-03-05 15:23:56 --> Table 'sahilcargo.setting' doesn't exist
+#0 C:\xampp\htdocs\spy_class\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\spy_class\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\spy_class\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\spy_class\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\spy_class\app\Models\Master_model.php(172): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\spy_class\app\Views\web\front-header.php(6): App\Models\Master_model->getRecordsObj('setting', Array)
+#6 C:\xampp\htdocs\spy_class\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\spy_class\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\spy_class\system\Common.php(1271): CodeIgniter\View\View->render('web/front-heade...', Array, true)
+#9 C:\xampp\htdocs\spy_class\app\Controllers\Home.php(23): view('web/front-heade...', Array)
+#10 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\spy_class\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2025-03-05 15:32:23 --> Table 'sahilcargo.admin' doesn't exist
+CRITICAL - 2025-03-05 15:32:23 --> Table 'sahilcargo.admin' doesn't exist
+#0 C:\xampp\htdocs\spy_class\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `fld_sit...')
+#1 C:\xampp\htdocs\spy_class\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fld_sit...')
+#2 C:\xampp\htdocs\spy_class\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fld_sit...')
+#3 C:\xampp\htdocs\spy_class\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `fld_sit...', Array, false)
+#4 C:\xampp\htdocs\spy_class\app\Models\Master_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\spy_class\app\Views\web\front-header.php(7): App\Models\Master_model->getRecords('admin', Array, 'fld_site_status')
+#6 C:\xampp\htdocs\spy_class\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\spy_class\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\spy_class\system\Common.php(1271): CodeIgniter\View\View->render('web/front-heade...', Array, true)
+#9 C:\xampp\htdocs\spy_class\app\Controllers\Home.php(23): view('web/front-heade...', Array)
+#10 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\spy_class\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2025-03-05 15:32:55 --> Table 'spyclass.admin' doesn't exist
+CRITICAL - 2025-03-05 15:32:55 --> Table 'spyclass.admin' doesn't exist
+#0 C:\xampp\htdocs\spy_class\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `fld_sit...')
+#1 C:\xampp\htdocs\spy_class\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fld_sit...')
+#2 C:\xampp\htdocs\spy_class\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fld_sit...')
+#3 C:\xampp\htdocs\spy_class\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `fld_sit...', Array, false)
+#4 C:\xampp\htdocs\spy_class\app\Models\Master_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\spy_class\app\Views\web\front-header.php(7): App\Models\Master_model->getRecords('admin', Array, 'fld_site_status')
+#6 C:\xampp\htdocs\spy_class\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\spy_class\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\spy_class\system\Common.php(1271): CodeIgniter\View\View->render('web/front-heade...', Array, true)
+#9 C:\xampp\htdocs\spy_class\app\Controllers\Home.php(23): view('web/front-heade...', Array)
+#10 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\spy_class\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2025-03-05 15:33:38 --> Undefined variable $settings
+#0 C:\xampp\htdocs\spy_class\app\Views\web\front-header.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\spy_class\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spy_class\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spy_class\system\Common.php(1271): CodeIgniter\View\View->render('web/front-heade...', Array, true)
+#4 C:\xampp\htdocs\spy_class\app\Controllers\Home.php(23): view('web/front-heade...', Array)
+#5 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spy_class\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-03-05 15:34:08 --> Table 'spyclass.tbl_menu_master' doesn't exist
+CRITICAL - 2025-03-05 15:34:08 --> Table 'spyclass.tbl_menu_master' doesn't exist
+#0 C:\xampp\htdocs\spy_class\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\spy_class\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\spy_class\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\spy_class\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\spy_class\app\Models\Master_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\spy_class\app\Views\web\front-header.php(152): App\Models\Master_model->getRecords('tbl_menu_master')
+#6 C:\xampp\htdocs\spy_class\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\spy_class\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\spy_class\system\Common.php(1271): CodeIgniter\View\View->render('web/front-heade...', Array, true)
+#9 C:\xampp\htdocs\spy_class\app\Controllers\Home.php(23): view('web/front-heade...', Array)
+#10 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\spy_class\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2025-03-05 18:49:10 --> Class "App\Controllers\Master_model" not found
+#0 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(928): App\Controllers\Home->submitForm()
+#1 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spy_class\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-03-05 18:50:06 --> Class "App\Controllers\Master_model" not found
+#0 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(928): App\Controllers\Home->submitForm()
+#1 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spy_class\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spy_class\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,249 @@
+ERROR - 2024-11-28 10:44:22 --> Unknown column 'invoice_id' in 'where clause'
+CRITICAL - 2024-11-28 10:44:22 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/invoice-generation/app/Controllers/Invoices.php(211): App\Models\Master_model->getRecords()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fShareInvoice()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-28 10:55:07 --> Unknown column 'invoice_id' in 'where clause'
+CRITICAL - 2024-11-28 10:55:07 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/invoice-generation/app/Controllers/Invoices.php(211): App\Models\Master_model->getRecords()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fShareInvoice()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-28 11:05:23 --> Unknown column 'invoice_no' in 'where clause'
+CRITICAL - 2024-11-28 11:05:23 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/invoice-generation/app/Controllers/Invoices.php(86): App\Models\Master_model->getRecords()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->FupdateInvoice()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-28 11:09:47 --> Unknown column 'invoice_no' in 'where clause'
+CRITICAL - 2024-11-28 11:09:47 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/invoice-generation/app/Controllers/Invoices.php(86): App\Models\Master_model->getRecords()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->FupdateInvoice()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-28 11:28:11 --> Unknown column 'invoice_id' in 'where clause'
+CRITICAL - 2024-11-28 11:28:11 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/invoice-generation/app/Controllers/Invoices.php(186): App\Models\Master_model->getRecords()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fShareInvoice()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-28 11:29:50 --> Unknown column 'invoice_id' in 'where clause'
+CRITICAL - 2024-11-28 11:29:50 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/invoice-generation/app/Controllers/Invoices.php(186): App\Models\Master_model->getRecords()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fShareInvoice()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-28 11:33:18 --> Undefined variable $invoicePrimaryId
+#0 /var/www/html/invoice-generation/app/Controllers/Invoices.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fShareInvoice()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-28 12:10:49 --> Unknown column 'invoice_no' in 'where clause'
+CRITICAL - 2024-11-28 12:10:49 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/invoice-generation/app/Controllers/Invoices.php(261): App\Models\Master_model->getRecords()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fGenearteInvoicePdf()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-28 12:12:29 --> Undefined array key "invoice_id"
+#0 /var/www/html/invoice-generation/app/Controllers/Invoices.php(261): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fGenearteInvoicePdf()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-28 12:18:35 --> Array to string conversion
+#0 /var/www/html/invoice-generation/app/Controllers/Invoices.php(270): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fGenearteInvoicePdf()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-28 12:18:46 --> fopen(/var/www/html/invoice-generation/writable/pdf/invoice-ZEP/20241128.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/vendor/mpdf/mpdf/src/Mpdf.php(9629): fopen()
+#2 /var/www/html/invoice-generation/app/Controllers/Invoices.php(299): Mpdf\Mpdf->Output()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fGenearteInvoicePdf()
+#4 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-11-28 12:43:14 --> syntax error, unexpected single-quoted string "status", expecting "]"
+#0 /var/www/html/invoice-generation/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/invoice-generation/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/invoice-generation/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-11-28 12:46:17 --> syntax error, unexpected single-quoted string "status", expecting "]"
+#0 /var/www/html/invoice-generation/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/invoice-generation/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/invoice-generation/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-11-28 12:46:50 --> Unknown column 'invoice_no' in 'where clause'
+CRITICAL - 2024-11-28 12:46:50 --> Call to a member function getResultArray() on bool
+#0 /var/www/html/invoice-generation/app/Controllers/Invoices.php(84): App\Models\Master_model->getRecords()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->FupdateInvoice()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-11-28 12:48:21 --> Undefined variable $aCompaniesList
+#0 /var/www/html/invoice-generation/app/Views/invoice/update_invoice.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/View/View.php(230): include('...')
+#2 /var/www/html/invoice-generation/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/invoice-generation/app/Controllers/Invoices.php(88): view()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->FupdateInvoice()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-28 12:50:05 --> Undefined variable $aCompaniesList
+#0 /var/www/html/invoice-generation/app/Views/invoice/update_invoice.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/View/View.php(230): include('...')
+#2 /var/www/html/invoice-generation/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/invoice-generation/app/Controllers/Invoices.php(85): view()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->FupdateInvoice()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-28 12:50:05 --> Undefined variable $aCompaniesList
+#0 /var/www/html/invoice-generation/app/Views/invoice/update_invoice.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/View/View.php(230): include('...')
+#2 /var/www/html/invoice-generation/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/invoice-generation/app/Controllers/Invoices.php(85): view()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->FupdateInvoice()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-28 12:50:42 --> Undefined variable $aClinetsList
+#0 /var/www/html/invoice-generation/app/Views/invoice/update_invoice.php(135): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/View/View.php(230): include('...')
+#2 /var/www/html/invoice-generation/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/invoice-generation/app/Controllers/Invoices.php(85): view()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->FupdateInvoice()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-28 13:21:18 --> Undefined variable $aCompaniesList
+#0 /var/www/html/invoice-generation/app/Views/invoice/new_invoice.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/View/View.php(230): include('...')
+#2 /var/www/html/invoice-generation/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/invoice-generation/app/Controllers/Invoices.php(57): view()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fCreateNewInvoice()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-28 13:22:24 --> Undefined variable $aCompaniesList
+#0 /var/www/html/invoice-generation/app/Views/invoice/new_invoice.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/View/View.php(230): include('...')
+#2 /var/www/html/invoice-generation/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/invoice-generation/app/Controllers/Invoices.php(57): view()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fCreateNewInvoice()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-28 13:23:24 --> Undefined variable $CompanyData
+#0 /var/www/html/invoice-generation/app/Views/invoice/new_invoice.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/View/View.php(230): include('...')
+#2 /var/www/html/invoice-generation/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/invoice-generation/app/Controllers/Invoices.php(57): view()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fCreateNewInvoice()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-11-28 13:32:21 --> Undefined variable $CompanyData
+#0 /var/www/html/invoice-generation/app/Views/invoice/new_invoice.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/View/View.php(230): include('...')
+#2 /var/www/html/invoice-generation/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/invoice-generation/app/Controllers/Invoices.php(57): view()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fCreateNewInvoice()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-11-28 13:45:45 --> Unknown column 'is_delete' in 'field list'
+CRITICAL - 2024-11-28 13:45:45 --> Undefined variable $iMasterId
+#0 /var/www/html/invoice-generation/app/Controllers/Invoices.php(154): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fUpdateInvoiceDetails()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-11-28 13:45:59 --> Unknown column 'is_delete' in 'field list'
+CRITICAL - 2024-11-28 15:08:50 --> Undefined array key "email_protocol"
+#0 /var/www/html/invoice-generation/app/Models/Master_model.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/app/Controllers/Invoices.php(465): App\Models\Master_model->fSendMail()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fSendInvoiceEmail()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-11-28 16:08:30 --> Undefined variable $CompanyData
+#0 /var/www/html/invoice-generation/app/Views/invoice/new_invoice.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/View/View.php(230): include('...')
+#2 /var/www/html/invoice-generation/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/invoice-generation/app/Controllers/Invoices.php(54): view()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fCreateNewInvoice()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-11-28 16:16:37 --> General error: Undefined array key "mbw"
+CRITICAL - 2024-11-28 16:17:43 --> Undefined variable $totalTime
+#0 /var/www/html/invoice-generation/system/Debug/Toolbar/Views/toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/system/Debug/Toolbar.php(495): include('...')
+#2 /var/www/html/invoice-generation/system/Debug/Toolbar.php(452): CodeIgniter\Debug\Toolbar->format()
+#3 /var/www/html/invoice-generation/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/html/invoice-generation/system/Events/Events.php(166): call_user_func()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(316): CodeIgniter\Events\Events::trigger()
+#7 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-11-28 16:18:23 --> General error: Undefined array key "mbw"
+CRITICAL - 2024-11-28 16:47:20 --> syntax error, unexpected token "[", expecting ":"
+#0 /var/www/html/invoice-generation/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/invoice-generation/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/invoice-generation/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

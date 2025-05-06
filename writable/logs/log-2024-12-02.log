@@ -1,0 +1,23 @@
+ERROR - 2024-12-02 14:37:00 --> Unknown column 'rounding_off' in 'field list'
+CRITICAL - 2024-12-02 14:37:00 --> Unknown column 'rounding_off' in 'field list'
+#0 /var/www/html/invoice-generation/system/Database/MySQLi/Connection.php(329): mysqli->query()
+#1 /var/www/html/invoice-generation/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/invoice-generation/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/invoice-generation/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/invoice-generation/app/Models/Master_model.php(199): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/invoice-generation/app/Controllers/Invoices.php(257): App\Models\Master_model->insertRecord()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Invoices->fSaveInvoice()
+#7 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-12-02 18:40:50 --> syntax error, unexpected token "}"
+#0 /var/www/html/invoice-generation/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/invoice-generation/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(885): class_exists()
+#4 /var/www/html/invoice-generation/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-12-02 18:47:25 --> General error: unlink(/var/www/html/invoice-generation/writable/pdf/): Is a directory

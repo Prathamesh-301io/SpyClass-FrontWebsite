@@ -1,0 +1,75 @@
+CRITICAL - 2025-03-12 21:11:21 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\Nxampp\htdocs\spyclass\system\Router\RouteCollection.php(1368): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\Nxampp\\htdoc...', 1368)
+#1 C:\Nxampp\htdocs\spyclass\system\Router\RouteCollection.php(628): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 C:\Nxampp\htdocs\spyclass\system\Config\Routes.php(27): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 C:\Nxampp\htdocs\spyclass\app\Config\Routes.php(11): require('C:\\Nxampp\\htdoc...')
+#4 C:\Nxampp\htdocs\spyclass\system\CodeIgniter.php(796): require('C:\\Nxampp\\htdoc...')
+#5 C:\Nxampp\htdocs\spyclass\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\Nxampp\htdocs\spyclass\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Nxampp\htdocs\spyclass\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-03-12 21:11:21 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\Nxampp\htdocs\spyclass\app\Config\Events.php:35) in C:\Nxampp\htdocs\spyclass\system\Debug\Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\Nxampp\\htdoc...', 137)
+#1 C:\Nxampp\htdocs\spyclass\system\Debug\Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2025-03-12 15:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-12 15:45:21 --> ErrorException: Undefined array key "SENDINBLUE_API_KEY"
+[Method: GET, Route: /]
+in APPPATH\Models\Master_model.php on line 15.
+ 1 APPPATH\Models\Master_model.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SENDINBLUE_API_KEY"', 'C:\\Nxampp\\htdocs\\spyclass\\app\\Models\\Master_model.php', 15)
+ 2 APPPATH\Controllers\BaseController.php(57): App\Models\Master_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-03-12 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-12 15:54:35 --> ErrorException: Type of Config\Filters::$filters must be array (as in class CodeIgniter\Config\Filters)
+[Method: POST, Route: home/submitForm]
+in APPPATH\Config\Filters.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 15:54:40 --> ErrorException: Type of Config\Filters::$filters must be array (as in class CodeIgniter\Config\Filters)
+[Method: POST, Route: home/submitForm]
+in APPPATH\Config\Filters.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 15:55:15 --> ErrorException: Type of Config\Filters::$filters must be array (as in class CodeIgniter\Config\Filters)
+[Method: GET, Route: home/submitForm]
+in APPPATH\Config\Filters.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-03-12 15:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 15:58:38 --> Email sent successfully to atmaramd@301io.com
+INFO - 2025-03-12 15:58:38 --> Email sent successfully to support@zeplinix.com
+INFO - 2025-03-12 16:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-12 16:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,88 @@
+CRITICAL - 2024-12-03 13:19:39 --> Invalid file: quotations/new_quotations.php
+#0 /var/www/html/invoice-generation/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/invoice-generation/app/Controllers/Quotations.php(56): view()
+#3 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Quotations->fCreateNewQuotations()
+#4 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-12-03 13:31:12 --> Call to undefined method App\Controllers\Quotations::fGenearteInvoicePdf()
+#0 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Quotations->fSaveQuotations()
+#1 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-12-03 13:31:56 --> Invalid file: quotations/invoice_pdf.php
+#0 /var/www/html/invoice-generation/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/invoice-generation/app/Controllers/Quotations.php(408): view()
+#3 /var/www/html/invoice-generation/app/Controllers/Quotations.php(297): App\Controllers\Quotations->fGenearteQuotationsPdf()
+#4 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Quotations->fSaveQuotations()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-12-03 13:37:28 --> Invalid file: quotation/quotation_pdf.php
+#0 /var/www/html/invoice-generation/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/invoice-generation/app/Controllers/Quotations.php(408): view()
+#3 /var/www/html/invoice-generation/app/Controllers/Quotations.php(297): App\Controllers\Quotations->fGenearteQuotationsPdf()
+#4 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Quotations->fSaveQuotations()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-12-03 13:37:58 --> Invalid file: quotations/sahil_cargo_invoice_pdf.php
+#0 /var/www/html/invoice-generation/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/invoice-generation/app/Controllers/Quotations.php(409): view()
+#3 /var/www/html/invoice-generation/app/Controllers/Quotations.php(297): App\Controllers\Quotations->fGenearteQuotationsPdf()
+#4 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Quotations->fSaveQuotations()
+#5 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-12-03 13:38:19 --> Invalid file: quotations/invoice_pdf.php
+#0 /var/www/html/invoice-generation/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/invoice-generation/app/Views/quotations/quotation_summary.php(86): view()
+#3 /var/www/html/invoice-generation/system/View/View.php(230): include('...')
+#4 /var/www/html/invoice-generation/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/html/invoice-generation/system/Common.php(1271): CodeIgniter\View\View->render()
+#6 /var/www/html/invoice-generation/app/Controllers/Quotations.php(338): view()
+#7 /var/www/html/invoice-generation/system/CodeIgniter.php(928): App\Controllers\Quotations->fShareQuotations()
+#8 /var/www/html/invoice-generation/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/invoice-generation/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/invoice-generation/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-12-03 18:11:07 --> Undefined variable $totalTime
+#0 /var/www/html/invoice-generation/sahilCargo/system/Debug/Toolbar/Views/toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/sahilCargo/system/Debug/Toolbar.php(495): include('...')
+#2 /var/www/html/invoice-generation/sahilCargo/system/Debug/Toolbar.php(452): CodeIgniter\Debug\Toolbar->format()
+#3 /var/www/html/invoice-generation/sahilCargo/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/html/invoice-generation/sahilCargo/system/Events/Events.php(166): call_user_func()
+#6 /var/www/html/invoice-generation/sahilCargo/system/CodeIgniter.php(316): CodeIgniter\Events\Events::trigger()
+#7 /var/www/html/invoice-generation/sahilCargo/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-12-03 18:58:18 --> Unmatched '}'
+#0 /var/www/html/invoice-generation/sahilCargo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/invoice-generation/sahilCargo/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/html/invoice-generation/sahilCargo/app/Controllers/Invoices.php(59): view()
+#3 /var/www/html/invoice-generation/sahilCargo/system/CodeIgniter.php(928): App\Controllers\Invoices->fCreateNewInvoice()
+#4 /var/www/html/invoice-generation/sahilCargo/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/invoice-generation/sahilCargo/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/invoice-generation/sahilCargo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-12-03 20:16:16 --> Undefined variable $aProduct
+#0 /var/www/html/invoice-generation/sahilCargo/app/Views/invoice/update_invoice.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/invoice-generation/sahilCargo/system/View/View.php(230): include('...')
+#2 /var/www/html/invoice-generation/sahilCargo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/invoice-generation/sahilCargo/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/html/invoice-generation/sahilCargo/app/Controllers/Invoices.php(90): view()
+#5 /var/www/html/invoice-generation/sahilCargo/system/CodeIgniter.php(928): App\Controllers\Invoices->FupdateInvoice()
+#6 /var/www/html/invoice-generation/sahilCargo/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/invoice-generation/sahilCargo/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/invoice-generation/sahilCargo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
