@@ -41,7 +41,7 @@
          <div
             class="container mx-auto max-w-[1440px] h-[82px] flex justify-between items-center px-4 sm:px-6 lg:px-8">
             <!-- Logo -->
-            <a class="text-3xl font-semibold leading-none transition-all duration-300 transform hover:scale-105 hover:rotate-3" href="<?php echo base_url(); ?>">
+            <a class="text-3xl font-semibold leading-none transition-all duration-300 transform hover:scale-105 hover:rotate-3" href="<?php echo base_url(); ?>usermanual">
                <img class="h-auto max-w-full transition-all duration-300 transform hover:scale-110 hover:rotate-6"
                   src="<?php echo base_url(); ?>/public/fassets/imgs/logos/SpyClass.png"
                   alt="SpyClass Logo"
