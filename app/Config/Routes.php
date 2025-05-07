@@ -19,3 +19,5 @@ $routes->set404Override();
 $routes->get('home/submitForm', 'Home::submitForm');
 $routes->post('home/submitForm', 'Home::submitForm');
  
+$manualRoutes = new \Config\UserManualRoutes();
+$manualRoutes->initRoutes($routes);

@@ -52,6 +52,7 @@
                <a class="font-semibold py-2 px-4 rounded-lg <?= ($currentPage == '') ? 'text-purple-700 font-bold  bg-purple-100' : 'text-gray-700 hover:bg-gray-100'; ?>" href="<?php echo base_url(); ?>">Home</a>
                <a class="font-semibold py-2 px-4 rounded-lg <?= ($currentPage == 'about-us') ? 'text-purple-700 font-bold  bg-purple-100' : 'text-gray-700 hover:bg-gray-100'; ?>" href="<?php echo base_url('about-us'); ?>">About Us</a>
                <a class="font-semibold py-2 px-4 rounded-lg bg-purple-700 text-white cursor-pointer" onclick="openModal('contactModal')">Contact Us</a>
+               <a class="font-semibold py-2 px-4 rounded-lg <?= ($currentPage == 'usermanual') ? 'text-purple-700 font-bold  bg-purple-100' : 'text-gray-700 hover:bg-gray-100'; ?>" href="<?php echo base_url('usermanual'); ?>" target="_blank">User Manual</a>
             </div>
 
             <!-- Mobile Menu Button -->

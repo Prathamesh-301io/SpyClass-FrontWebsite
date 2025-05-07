@@ -4,3 +4,188 @@ INFO - 2025-05-06 09:33:31 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-05-06 09:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-05-06 09:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-05-06 09:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 10:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 10:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 10:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 10:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-06 10:49:27 --> ErrorException: Constant expression contains invalid operations
+[Method: GET, Route: v1.0/usermanual]
+in APPPATH\Controllers\UserManual\ManualController.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-05-06 10:51:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "UserManual/layouts/front-header.php"
+[Method: GET, Route: usermanual]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UserManual/layouts/front-header.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('UserManual/layouts/front-header', [], true)
+ 3 APPPATH\Controllers\UserManual\ManualController.php(22): view('UserManual/layouts/front-header', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-06 11:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-06 11:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-06 11:40:34 --> ErrorException: Undefined property: App\Controllers\UserManual\ManualController::$load
+[Method: GET, Route: usermanual/students]
+in APPPATH\Controllers\UserManual\ManualController.php on line 15.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserManual\\ManualController::$load', 'C:\\xampp8.2\\htdocs\\app123\\app\\Controllers\\UserManual\\ManualController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\UserManual\ManualController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 11:40:35 --> ErrorException: Undefined property: App\Controllers\UserManual\ManualController::$load
+[Method: GET, Route: usermanual/students]
+in APPPATH\Controllers\UserManual\ManualController.php on line 15.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserManual\\ManualController::$load', 'C:\\xampp8.2\\htdocs\\app123\\app\\Controllers\\UserManual\\ManualController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\UserManual\ManualController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 11:40:35 --> ErrorException: Undefined property: App\Controllers\UserManual\ManualController::$load
+[Method: GET, Route: usermanual/students]
+in APPPATH\Controllers\UserManual\ManualController.php on line 15.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserManual\\ManualController::$load', 'C:\\xampp8.2\\htdocs\\app123\\app\\Controllers\\UserManual\\ManualController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\UserManual\ManualController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 11:40:35 --> ErrorException: Undefined property: App\Controllers\UserManual\ManualController::$load
+[Method: GET, Route: usermanual/students]
+in APPPATH\Controllers\UserManual\ManualController.php on line 15.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserManual\\ManualController::$load', 'C:\\xampp8.2\\htdocs\\app123\\app\\Controllers\\UserManual\\ManualController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\UserManual\ManualController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 12:06:20 --> ErrorException: Undefined property: App\Controllers\UserManual\ManualController::$load
+[Method: GET, Route: usermanual/students]
+in APPPATH\Controllers\UserManual\ManualController.php on line 15.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserManual\\ManualController::$load', 'C:\\xampp8.2\\htdocs\\app123\\app\\Controllers\\UserManual\\ManualController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\UserManual\ManualController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 12:06:36 --> ArgumentCountError: Too few arguments to function view(), 0 passed in C:\xampp8.2\htdocs\app123\app\Controllers\UserManual\ManualController.php on line 32 and at least 1 expected
+[Method: GET, Route: usermanual/students]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(32): view()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('students')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 12:07:51 --> ArgumentCountError: Too few arguments to function view(), 0 passed in C:\xampp8.2\htdocs\app123\app\Controllers\UserManual\ManualController.php on line 32 and at least 1 expected
+[Method: GET, Route: usermanual/students]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(32): view()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('students')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 12:08:02 --> ArgumentCountError: Too few arguments to function view(), 0 passed in C:\xampp8.2\htdocs\app123\app\Controllers\UserManual\ManualController.php on line 32 and at least 1 expected
+[Method: GET, Route: usermanual/students]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(32): view()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('students')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 12:11:21 --> ArgumentCountError: Too few arguments to function view(), 0 passed in C:\xampp8.2\htdocs\app123\app\Controllers\UserManual\ManualController.php on line 32 and at least 1 expected
+[Method: GET, Route: usermanual/students]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(32): view()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('students')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 12:11:21 --> ArgumentCountError: Too few arguments to function view(), 0 passed in C:\xampp8.2\htdocs\app123\app\Controllers\UserManual\ManualController.php on line 32 and at least 1 expected
+[Method: GET, Route: usermanual/students]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(32): view()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('students')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 12:11:21 --> ArgumentCountError: Too few arguments to function view(), 0 passed in C:\xampp8.2\htdocs\app123\app\Controllers\UserManual\ManualController.php on line 32 and at least 1 expected
+[Method: GET, Route: usermanual/students]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(32): view()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('students')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 12:11:25 --> ArgumentCountError: Too few arguments to function view(), 0 passed in C:\xampp8.2\htdocs\app123\app\Controllers\UserManual\ManualController.php on line 32 and at least 1 expected
+[Method: GET, Route: usermanual/students]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(32): view()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('students')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 12:12:21 --> ArgumentCountError: Too few arguments to function view(), 0 passed in C:\xampp8.2\htdocs\app123\app\Controllers\UserManual\ManualController.php on line 32 and at least 1 expected
+[Method: GET, Route: usermanual/students]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\UserManual\ManualController.php(32): view()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('students')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 12:13:21 --> Error: Call to undefined method CodeIgniter\View\View::exists()
+[Method: GET, Route: usermanual/students]
+in APPPATH\Controllers\UserManual\ManualController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('students')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 13:11:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "UserManual/404.php"
+[Method: GET, Route: usermanual/students/view-profile-and-informatio]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UserManual/404.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('UserManual/404', [], true)
+ 3 APPPATH\Controllers\UserManual\ManualController.php(39): view('UserManual/404')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('students', 'view-profile-and-informatio')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-06 14:05:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "UserManual/404.php"
+[Method: GET, Route: usermanual/teachers]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UserManual/404.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('UserManual/404', [], true)
+ 3 APPPATH\Controllers\UserManual\ManualController.php(39): view('UserManual/404')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('teachers')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
