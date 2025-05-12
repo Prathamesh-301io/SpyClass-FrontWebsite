@@ -45,7 +45,7 @@
                <img class="h-auto max-w-full transition-all duration-300 transform hover:scale-110 hover:rotate-6"
                   src="<?php echo base_url(); ?>/public/fassets/imgs/logos/SpyClass.png"
                   alt="SpyClass Logo"
-                  style="width: 175px; transition: all 0.3s ease;" />
+                  style="width: 150px; transition: all 0.3s ease;" />
             </a>
 
             <!-- Desktop Navigation -->

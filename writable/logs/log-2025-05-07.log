@@ -2,3 +2,75 @@ INFO - 2025-05-07 05:22:37 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-05-07 05:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-05-07 05:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-05-07 06:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-07 10:17:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "UserManual/404.php"
+[Method: GET, Route: usermanual/students/noticeboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UserManual/404.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('UserManual/404', [], true)
+ 3 APPPATH\Controllers\UserManual\ManualController.php(39): view('UserManual/404')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('students', 'noticeboard')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-07 10:34:15 --> ErrorException: Undefined variable $totalTime
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp8.2\\htdocs\\app123\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(534): include('C:\\xampp8.2\\htdocs\\app123\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-07 11:53:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "UserManual/404.php"
+[Method: GET, Route: usermanual/admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UserManual/404.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('UserManual/404', [], true)
+ 3 APPPATH\Controllers\UserManual\ManualController.php(39): view('UserManual/404')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('admin')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-07 11:53:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "UserManual/404.php"
+[Method: GET, Route: usermanual/teachers]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UserManual/404.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('UserManual/404', [], true)
+ 3 APPPATH\Controllers\UserManual\ManualController.php(39): view('UserManual/404')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('teachers')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-07 11:59:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "UserManual/404.php"
+[Method: GET, Route: usermanual/teachers]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UserManual/404.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('UserManual/404', [], true)
+ 3 APPPATH\Controllers\UserManual\ManualController.php(39): view('UserManual/404')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('teachers')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-07 12:17:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "UserManual/404.php"
+[Method: GET, Route: usermanual/teachers]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UserManual/404.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('UserManual/404', [], true)
+ 3 APPPATH\Controllers\UserManual\ManualController.php(39): view('UserManual/404')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManual\ManualController->showManual('teachers')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManual\ManualController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
