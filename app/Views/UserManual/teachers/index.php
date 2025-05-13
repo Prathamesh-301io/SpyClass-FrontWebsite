@@ -50,7 +50,7 @@
                 </ul>
             </div>
 
-            <div id="teachers-dashboard" class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50 mb-6">
+            <div id="students-dashboard" class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50 mb-6">
                 <a href="<?= base_url('usermanual/teachers/view-student-information') ?>">
                     <h3 class="text-xl font-semibold text-purple-700 mb-4">Student Information</h3>
                 </a>
@@ -100,154 +100,195 @@
                 </ul>
             </div>
 
-
-
-            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50">
-                <a href="<?= base_url('usermanual/teachers/homework-information') ?>">
-                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Homework</h3>
+            <div id="teachers-attendance" class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50 mb-6">
+                <a href="<?= base_url('usermanual/teachers/attendance') ?>">
+                    <h3 class="text-xl font-semibold text-purple-700 mb-4">Attendance Management</h3>
                 </a>
-                <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                <ul class="list-disc list-inside text-gray-600 text-sm space-y-2">
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/homework-information#homework-list') ?>"
+                        <a href="<?= base_url('usermanual/teachers/attendance#students-attendance') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Homework List
+                            Students Attendance
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/homework-information#submission-status') ?>"
+                        <a href="<?= base_url('usermanual/teachers/attendance#attendance-by-date') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Submission Status
+                            Attendance By Date
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/homework-information#download-material') ?>"
+                        <a href="<?= base_url('usermanual/teachers/attendance#approve-leave') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Download Homework Material
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?= base_url('usermanual/teachers/homework-information#upload-submissions') ?>"
-                            class="hover:text-purple-600 hover:underline transition">
-                            Upload Submissions
+                            Approve Leave
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50">
-                <a href="<?= base_url('usermanual/teachers/online-exam-information') ?>">
-                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Online Exam</h3>
+            <div id="online-exam" class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50 mb-6">
+                <a href="<?= base_url('usermanual/teachers/view-online-examination') ?>">
+                    <h3 class="text-xl font-semibold text-purple-700 mb-4">Online Examination</h3>
                 </a>
-                <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                <ul class="list-disc list-inside text-gray-600 text-sm space-y-2">
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/online-exam-information#exam-list') ?>"
+                        <a href="<?= base_url('usermanual/teachers/view-online-examination#exam-list') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Exam List
+                            Online Exam List
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/online-exam-information#exam-details') ?>"
+                        <a href="<?= base_url('usermanual/teachers/view-online-examination#add-exam') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Exam Details
+                            Add Exam
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/online-exam-information#start-test') ?>"
+                        <a href="<?= base_url('usermanual/teachers/view-online-examination#assign-students') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Start Test
+                            Assign Students
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/online-exam-information#view-results') ?>"
+                        <a href="<?= base_url('usermanual/teachers/view-online-examination#add-question') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            View Results
+                            Add Question to Exam
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/online-exam-information#print-analyze') ?>"
+                        <a href="<?= base_url('usermanual/teachers/view-online-examination#evaluate-exam') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Print and Analyze Results
+                            Evaluate Exam
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/online-exam-information#reattempt-exam') ?>"
+                        <a href="<?= base_url('usermanual/teachers/view-online-examination#question-bank') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Reattempt Exam
+                            Question Bank
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50">
-                <a href="<?= base_url('usermanual/teachers/attendance-information') ?>">
-                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Attendance</h3>
+            <div id="teachers-lesson-plan" class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50 mb-6">
+                <a href="<?= base_url('usermanual/teachers/lesson-plan') ?>">
+                    <h3 class="text-xl font-semibold text-purple-700 mb-4">Lesson Plan Management</h3>
                 </a>
-                <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                <ul class="list-disc list-inside text-gray-600 text-sm space-y-2">
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/attendance-information#attendance-calendar') ?>"
+                        <a href="<?= base_url('usermanual/teachers/lesson-plan#manage-lesson-plan') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Attendance Calendar
+                            Manage Lesson Plan
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/attendance-information#attendance-legend') ?>"
+                        <a href="<?= base_url('usermanual/teachers/lesson-plan#manage-syllabus-status') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Attendance Legend
+                            Manage Syllabus Status
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/attendance-information#apply-leaves') ?>"
+                        <a href="<?= base_url('usermanual/teachers/lesson-plan#add-lesson') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Apply Leaves
+                            Add Lesson
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/lesson-plan#add-topic') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Add Topic
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50">
-                <a href="<?= base_url('usermanual/teachers/download-center') ?>">
-                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Download Center</h3>
+            <div id="teachers-academics" class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50 mb-6">
+                <a href="<?= base_url('usermanual/teachers/academics') ?>">
+                    <h3 class="text-xl font-semibold text-purple-700 mb-4">Academics Management</h3>
                 </a>
-                <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                <ul class="list-disc list-inside text-gray-600 text-sm space-y-2">
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/download-center#assignments') ?>"
+                        <a href="<?= base_url('usermanual/teachers/academics#class-timetable') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Assignments
+                            Class Timetable
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/download-center#study-material') ?>"
+                        <a href="<?= base_url('usermanual/teachers/academics#teachers-timetable') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Study Material
+                            Teachers Timetable
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/download-center#syllabus') ?>"
+                        <a href="<?= base_url('usermanual/teachers/academics#assign-class-teacher') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Syllabus
+                            Assign Class Teacher
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/download-center#other-downloads') ?>"
+                        <a href="<?= base_url('usermanual/teachers/academics#subject-group') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Other Downloads
+                            Subject Group
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('usermanual/teachers/download-center#gallery') ?>"
+                        <a href="<?= base_url('usermanual/teachers/academics#subjects') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Gallery
+                            Subjects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/academics#classes') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Classes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/academics#sections') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Sections
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/academics#zoom-meeting') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Zoom Meeting
                         </a>
                     </li>
                 </ul>
             </div>
 
+            <div id="human-resource-menu" class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50 mb-6">
+                <a href="<?= base_url('usermanual/teachers/human-resource') ?>">
+                    <h3 class="text-xl font-semibold text-purple-700 mb-4">Human Resource</h3>
+                </a>
+                <ul class="list-disc list-inside text-gray-600 text-sm space-y-2">
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/human-resource#staff-directory') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Staff Directory
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/human-resource#apply-leave') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Apply Leave
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/human-resource#leave-application-form') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Leave Application Form
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50">
+            <div id="communication-menu" class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50 mb-6">
                 <a href="<?= base_url('usermanual/teachers/communication') ?>">
-                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Communication</h3>
+                    <h3 class="text-xl font-semibold text-purple-700 mb-4">Communication</h3>
                 </a>
-                <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                <ul class="list-disc list-inside text-gray-600 text-sm space-y-2">
                     <li>
                         <a href="<?= base_url('usermanual/teachers/communication#notice-board') ?>"
                             class="hover:text-purple-600 hover:underline transition">
@@ -255,73 +296,20 @@
                         </a>
                     </li>
                     <li>
+                        <a href="<?= base_url('usermanual/teachers/communication#add-notice') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Add Notice
+                        </a>
+                    </li>
+                    <li>
                         <a href="<?= base_url('usermanual/teachers/communication#rules-regulations') ?>"
                             class="hover:text-purple-600 hover:underline transition">
-                            Rules and Regulations
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?= base_url('usermanual/teachers/communication#events') ?>"
-                            class="hover:text-purple-600 hover:underline transition">
-                            Events
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="<?= base_url('usermanual/teachers/communication#todo-list') ?>"
-                            class="hover:text-purple-600 hover:underline transition">
-                            To-Do List
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="<?= base_url('usermanual/teachers/communication#holiday-lists') ?>"
-                            class="hover:text-purple-600 hover:underline transition">
-                            Holiday Lists
+                            Rules & Regulations
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50">
-                <a href="<?= base_url('usermanual/teachers/library') ?>">
-                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Library</h3>
-                </a>
-                <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
-                    <li>
-                        <a href="<?= base_url('usermanual/teachers/library#books-list') ?>"
-                            class="hover:text-purple-600 hover:underline transition">
-                            Books List
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?= base_url('usermanual/teachers/library#issued-books') ?>"
-                            class="hover:text-purple-600 hover:underline transition">
-                            Issued Books
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50">
-                <a href="<?= base_url('usermanual/teachers/transport-hostel') ?>">
-                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Transport & Hostel</h3>
-                </a>
-                <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
-                    <li>
-                        <a href="<?= base_url('usermanual/teachers/transport-hostel#transport-routes') ?>"
-                            class="hover:text-purple-600 hover:underline transition">
-                            Transport Routes
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?= base_url('usermanual/teachers/transport-hostel#hostel-rooms') ?>"
-                            class="hover:text-purple-600 hover:underline transition">
-                            Hostel Rooms
-                        </a>
-                    </li>
-                </ul>
-            </div>
 
 
         </div>

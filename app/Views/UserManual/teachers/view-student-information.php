@@ -7,8 +7,8 @@
 <section class="py-10 bg-white">
     <div class="max-w-5xl mx-auto px-4">
         <div class="mb-6">
-            <a href="<?= base_url('usermanual/teachers') ?>" 
-               class="inline-block px-4 py-2 text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 rounded-md shadow">
+            <a href="<?= base_url('usermanual/teachers') ?>"
+                class="inline-block px-4 py-2 text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 rounded-md shadow">
                 ← Back to Teacher Manual
             </a>
         </div>
@@ -20,13 +20,36 @@
             <p class="text-gray-700 mb-4">
                 This section displays a list of all students filtered by class and section. You can view detailed information for each student, including profile, exams, documents, and timeline.
             </p>
-             <img src="<?= base_url('public/images/UserManual/teachers/student-details.png') ?>" alt="Student Details" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
-            <div class="grid grid-cols-2 gap-4">
-                <img src="<?= base_url('public/images/UserManual/teachers/student-profile.png') ?>" alt="Student Profile" class="rounded-xl shadow-lg w-full">
-                <img src="<?= base_url('public/images/UserManual/teachers/student-documents.png') ?>" alt="Student Documents" class="rounded-xl shadow-lg w-full">
-                <img src="<?= base_url('public/images/UserManual/teachers/student-timeline.png') ?>" alt="Student Timeline" class="rounded-xl shadow-lg w-full">
-                <img src="<?= base_url('public/images/UserManual/teachers/student-details.png') ?>" alt="Student Details" class="rounded-xl shadow-lg w-full">
+            <img src="<?= base_url('public/images/UserManual/teachers/student-details.png') ?>" alt="Student Details" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <div class="grid grid-cols-1 gap-4 mt-3">
+                <div class="flex flex-col items-center space-y-2">
+                    <p class="text-gray-700 font-semibold text-center">
+                        Students Profile
+                    </p>
+                    <img src="<?= base_url('public/images/UserManual/teachers/student-profile.png') ?>"
+                        alt="Student Profile"
+                        class="rounded-xl shadow-lg w-full max-w-lg">
+                </div>
+
+                <div class="flex flex-col items-center space-y-2">
+                    <p class="text-gray-700 font-semibold text-center">
+                        Students Documents
+                    </p>
+                    <img src="<?= base_url('public/images/UserManual/teachers/student-documents.png') ?>"
+                        alt="Student Documents"
+                        class="rounded-xl shadow-lg w-full max-w-lg">
+                </div>
+
+                <div class="flex flex-col items-center space-y-2">
+                    <p class="text-gray-700 font-semibold text-center">
+                        Students Timeline
+                    </p>
+                    <img src="<?= base_url('public/images/UserManual/teachers/student-timeline.png') ?>"
+                        alt="Student Timeline"
+                        class="rounded-xl shadow-lg w-full max-w-lg">
+                </div>
             </div>
+
         </div>
 
         <!-- Student Admission -->
