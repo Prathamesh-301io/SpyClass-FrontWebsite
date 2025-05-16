@@ -22,7 +22,7 @@
                 Easily access your subject-wise lecture timetable for each day of the week. Timings are updated by the school in real-time.
                 This helps students plan their studies and avoid missing any lectures.
             </p>
-            <img src="<?= base_url('public/images/UserManual/class-timetable.png') ?>" alt="Class Timetable" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/class-timetable.png') ?>" alt="Class Timetable" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Lesson Plan -->
@@ -32,7 +32,7 @@
                 Know in advance which topics will be taught on which day. The lesson plan ensures transparency and helps you
                 stay academically prepared throughout the term.
             </p>
-            <img src="<?= base_url('public/images/UserManual/lesson-plan.png') ?>" alt="Lesson Plan" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/lesson-plan.png') ?>" alt="Lesson Plan" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Zoom Meetings -->
@@ -42,7 +42,7 @@
                 View scheduled Zoom meetings for online classes directly from your dashboard. Each meeting shows the subject,
                 time, teacher’s name, and joining link. You can also see past meetings for reference.
             </p>
-            <img src="<?= base_url('public/images/UserManual/zoom-meetings.png') ?>" alt="Zoom Meetings" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/zoom-meetings.png') ?>" alt="Zoom Meetings" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Syllabus Status -->
@@ -52,7 +52,7 @@
                 Keep track of how much of the syllabus has been completed per subject. A progress bar shows the percentage covered,
                 completion date, and pending chapters. Helps students identify subjects that need more attention.
             </p>
-            <img src="<?= base_url('public/images/UserManual/syllabus-status.png') ?>" alt="Syllabus Status" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/syllabus-status.png') ?>" alt="Syllabus Status" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Teacher Review -->
@@ -62,7 +62,7 @@
                 Students can rate teachers based on teaching quality, clarity, and support. Each rating includes a 1–5 star system
                 and a comment box for suggestions. Feedback remains anonymous and is used to improve teaching quality.
             </p>
-            <img src="<?= base_url('public/images/UserManual/teacher-review.png') ?>" alt="Teacher Review" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/teacher-review.png') ?>" alt="Teacher Review" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
        

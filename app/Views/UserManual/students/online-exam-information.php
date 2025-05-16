@@ -15,7 +15,7 @@
             <p class="text-gray-700 mb-4">
                 This section displays a list of all upcoming and ongoing online exams. You can view the exam title, subject, start date, end date, and status (Scheduled, Ongoing, or Completed). You can click on any exam to view more details or start the test if it is currently active.
             </p>
-            <img src="<?= base_url('public/images/UserManual/exam-list.png') ?>" alt="Exam List" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/exam-list.png') ?>" alt="Exam List" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Exam Details -->
@@ -33,7 +33,7 @@
             <p class="text-gray-700 mb-4">
                 You will also find information about the exam's start and end time. Make sure to start the exam within the given timeframe.
             </p>
-            <img src="<?= base_url('public/images/UserManual/exam-details.png') ?>" alt="Exam Details" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/exam-details.png') ?>" alt="Exam Details" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Start Test -->
@@ -45,7 +45,7 @@
             <p class="text-gray-700 mb-4">
                 After answering all questions, click the <strong>Submit Test</strong> button to complete the exam. Make sure to review your answers before submission, as some exams may not allow re-attempts.
             </p>
-            <img src="<?= base_url('public/images/UserManual/start-test.png') ?>" alt="Start Test" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/start-test.png') ?>" alt="Start Test" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- View Results -->
@@ -57,7 +57,7 @@
             <p class="text-gray-700 mb-4">
                 You can download or print your result for future reference. In cases where retakes are allowed, you will find an option to reattempt the exam.
             </p>
-            <img src="<?= base_url('public/images/UserManual/view-results.png') ?>" alt="View Results" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/view-results.png') ?>" alt="View Results" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Print and Analyze Results -->
@@ -66,7 +66,7 @@
             <p class="text-gray-700 mb-4">
                 Use the print option to get a hard copy of your exam result. The analysis feature allows you to see your performance trend over multiple attempts, helping you gauge your progress and prepare more effectively for future exams.
             </p>
-            <img src="<?= base_url('public/images/UserManual/print-analyze.png') ?>" alt="Print and Analyze Results" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/print-analyze.png') ?>" alt="Print and Analyze Results" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
     </div>

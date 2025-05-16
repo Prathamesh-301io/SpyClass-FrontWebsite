@@ -78,8 +78,8 @@
 
 <!-- Preloader Section -->
 <div id="preloader-active">
-   <div class="preloader flex-1 content-center">
-      <div class="logo jump absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+   <div class="preloader flex justify-center items-center">
+      <div class="logo text-center jump">
          <img src="<?php echo base_url(); ?>/public/fassets/imgs/logos/SpyClass.png" alt="SpyClass Logo" class="mx-auto" />
          <h3 class="text-lg font-semibold">
             <b>S-</b>Secure <b>P-</b>Productive <b>Y-</b>YouthCentric
@@ -88,8 +88,8 @@
    </div>
 </div>
 
+
 <style>
-   /* Make sure preloader takes full screen height */
    #preloader-active {
       position: fixed;
       top: 0;
@@ -102,18 +102,7 @@
       background-color: rgba(255, 255, 255, 0.9);
       z-index: 9999;
       overflow: hidden;
-      /* Add this to prevent layout overflow */
    }
-
-   .logo {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      animation: jump 2s infinite;
-   }
-
 
    .preloader {
       display: flex;
@@ -123,6 +112,10 @@
       height: 100%;
    }
 
+   .logo {
+      text-align: center;
+      animation: jump 1s infinite;
+   }
 
    .logo img {
       max-width: 100%;
@@ -136,27 +129,6 @@
       margin: 0;
    }
 
-   /* Mobile adjustments */
-   @media (max-width: 767px) {
-      .logo {
-         transform: translateY(-50%);
-      }
-
-      .logo h3 {
-         font-size: 1rem;
-         padding: 0 10px;
-      }
-   }
-
-   /* Desktop adjustments */
-   @media (min-width: 768px) {
-      .logo h3 {
-         font-size: 1.5rem;
-         padding: 0 20px;
-      }
-   }
-
-   /* Animation for 'jump' */
    @keyframes jump {
       0% {
          transform: translateY(0);

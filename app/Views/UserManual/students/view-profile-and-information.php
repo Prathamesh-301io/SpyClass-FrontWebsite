@@ -18,35 +18,35 @@
         <div id="profile-section" class="mb-12">
             <h3 class="text-xl font-semibold text-purple-700 mb-2">Profile & Personal Details</h3>
             <p class="text-gray-700 mb-4">Students can view and update their personal details including contact info, category, and other miscellaneous details.</p>
-            <img src="<?= base_url('public/images/UserManual/students-profile.png') ?>" alt="Profile Details" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/students-profile.png') ?>" alt="Profile Details" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Fees -->
         <div id="fees-section" class="mb-12">
             <h3 class="text-xl font-semibold text-purple-700 mb-2">Academic Fees</h3>
             <p class="text-gray-700 mb-4">Check total fees, view amount paid or due, and download payment receipts through the fees section.</p>
-            <img src="<?= base_url('public/images/UserManual/students-fees.png') ?>" alt="Fees Information" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/students-fees.png') ?>" alt="Fees Information" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Exams -->
         <div id="exams-section" class="mb-12">
             <h3 class="text-xl font-semibold text-purple-700 mb-2">Examinations</h3>
             <p class="text-gray-700 mb-4">Access details of upcoming exams, time tables, and exam-related announcements.</p>
-            <img src="<?= base_url('public/images/UserManual/students-exams.png') ?>" alt="Exam Section" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/students-exams.png') ?>" alt="Exam Section" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Documents -->
         <div id="documents-section" class="mb-12">
             <h3 class="text-xl font-semibold text-purple-700 mb-2">Documents</h3>
             <p class="text-gray-700 mb-4">Students can upload and store important academic or identity documents securely within their dashboard.</p>
-            <img src="<?= base_url('public/images/UserManual/students-documents.png') ?>" alt="Documents Section" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/students-documents.png') ?>" alt="Documents Section" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Timeline -->
         <div id="timeline-section" class="mb-12">
             <h3 class="text-xl font-semibold text-purple-700 mb-2">Timeline</h3>
             <p class="text-gray-700 mb-4">The timeline feature tracks important student activities, updates, and progress throughout the academic year.</p>
-            <img src="<?= base_url('public/images/UserManual/students-timeline.png') ?>" alt="Timeline Section" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/students-timeline.png') ?>" alt="Timeline Section" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
     </div>
 </section>

@@ -19,7 +19,7 @@
             <p class="text-gray-700 mb-4">
                 You can also view the book's detailed information, including a brief description and genre classification.
             </p>
-            <img src="<?= base_url('public/images/UserManual/books-list.png') ?>" alt="Books List" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/books-list.png') ?>" alt="Books List" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Issued Books -->
@@ -35,7 +35,7 @@
             <p class="text-gray-700 mb-4">
                 If allowed, you can request a renewal for an issued book through this section.
             </p>
-            <img src="<?= base_url('public/images/UserManual/issued-books.png') ?>" alt="Issued Books" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/issued-books.png') ?>" alt="Issued Books" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
     </div>
 </section>

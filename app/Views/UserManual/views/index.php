@@ -15,10 +15,10 @@ $roles = [
         'modules' => ['Add Homework', 'Mark Attendance', 'Gradebook', 'Communication']
     ],
     [
-        'title' => 'Admin',
+        'title' => 'Administrators',
         'desc'  => 'Step-by-step setup and operational guides for school admins to configure and manage the ERP backend.',
         'icon'  => 'user-shield',
-        'path'  => 'usermanual/admin',
+        'path'  => 'usermanual/administrators',
         'modules' => ['Online Exam', 'Fees Management', 'User Roles', 'Settings']
     ]
 ];

@@ -6,6 +6,7 @@
                 ← Back
             </a>
         </div>
+        
         <div class="text-center mb-10">
             <h2 class="text-3xl sm:text-4xl font-bold text-gray-800">Teachers User Manual</h2>
             <p class="mt-2 text-gray-600">Explore features available to teachers with guides for each module.</p>
@@ -311,6 +312,131 @@
             </div>
 
 
+            <div id="download-center" class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50 mb-6">
+                <a href="<?= base_url('usermanual/teachers/download-center') ?>">
+                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Download Center</h3>
+                </a>
+                <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/download-center#upload-contents') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Upload Contents
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/download-center#assignments') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Assignments
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/download-center#study-material') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Study Material
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/download-center#syllabus') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Syllabus
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/download-center#other-downloads') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Other Downloads
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/download-center#gallery') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Gallery
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="homework-menu" class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50 mb-6">
+                <a href="<?= base_url('usermanual/teachers/homework') ?>">
+                    <h3 class="text-xl font-semibold text-purple-700 mb-4">Homework</h3>
+                </a>
+                <ul class="list-disc list-inside text-gray-600 text-sm space-y-2">
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/homework#homework-list') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Homework List
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/homework#add-homework') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Add Homework
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/homework#evaluate-homework') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Evaluate Homework
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="reports-menu" class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all hover:bg-purple-50 mb-6">
+                <a href="<?= base_url('usermanual/teachers/reports') ?>">
+                    <h3 class="text-xl font-semibold text-purple-700 mb-4">Reports</h3>
+                </a>
+                <ul class="list-disc list-inside text-gray-600 text-sm space-y-2">
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/reports#student-information') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Student Information
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/reports#attendance') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Attendance
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/reports#examination') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Examination
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/reports#online-examination') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Online Examination
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/reports#lesson-plan') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Lesson Plan
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/reports#transport') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Transport
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/reports#hostel') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Hostel
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('usermanual/teachers/reports#alumni') ?>"
+                            class="hover:text-purple-600 hover:underline transition">
+                            Alumni
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
         </div>
     </div>

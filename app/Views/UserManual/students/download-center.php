@@ -28,7 +28,7 @@
             <p class="text-gray-700 mb-4">
                 You can view the assignment title, upload date, and download the file directly from the list.
             </p>
-            <img src="<?= base_url('public/images/UserManual/assignments.png') ?>" alt="Assignments" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/assignments.png') ?>" alt="Assignments" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Study Material -->
@@ -40,7 +40,7 @@
             <p class="text-gray-700 mb-4">
                 The list shows the file title, description, and download option.
             </p>
-            <img src="<?= base_url('public/images/UserManual/study-material.png') ?>" alt="Study Material" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/study-material.png') ?>" alt="Study Material" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Syllabus -->
@@ -52,7 +52,7 @@
             <p class="text-gray-700 mb-4">
                 You can find the syllabus for each subject listed along with download options.
             </p>
-            <img src="<?= base_url('public/images/UserManual/syllabus.png') ?>" alt="Syllabus" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/syllabus.png') ?>" alt="Syllabus" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Other Downloads -->
@@ -64,7 +64,7 @@
             <p class="text-gray-700 mb-4">
                 Each file includes a brief description and a download link.
             </p>
-            <img src="<?= base_url('public/images/UserManual/other-downloads.png') ?>" alt="Other Downloads" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/other-downloads.png') ?>" alt="Other Downloads" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Gallery -->
@@ -78,10 +78,10 @@
             </p>
             <div class="grid grid-cols-2 gap-4">
                 <div>
-                    <img src="<?= base_url('public/images/UserManual/gallery-1.png') ?>" alt="Event Photo 1" class="rounded-lg shadow-lg w-full">
+                    <img src="<?= base_url('public/images/UserManual/students/gallery-1.png') ?>" alt="Event Photo 1" class="rounded-lg shadow-lg w-full">
                 </div>
                 <div>
-                    <img src="<?= base_url('public/images/UserManual/gallery-2.png') ?>" alt="Event Photo 1" class="rounded-lg shadow-lg w-full">
+                    <img src="<?= base_url('public/images/UserManual/students/gallery-2.png') ?>" alt="Event Photo 1" class="rounded-lg shadow-lg w-full">
                    
                 </div>
             </div>

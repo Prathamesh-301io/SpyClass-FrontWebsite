@@ -20,11 +20,11 @@
                 Easily check which routes are available and the status of each vehicle (active/inactive). You can also see which students are assigned 
                 to a particular route or vehicle.
             </p>
-            <img src="<?= base_url('public/images/UserManual/transport-routes.png') ?>" alt="Transport Routes" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/transport-routes.png') ?>" alt="Transport Routes" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
             <p class="text-gray-700 mb-4 mt-2">
                 Here shows Assigned Routes Details
             </p>
-            <img src="<?= base_url('public/images/UserManual/transport-routes-details.png') ?>" alt="Transport Routes" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/transport-routes-details.png') ?>" alt="Transport Routes" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Hostel Rooms -->
@@ -38,7 +38,7 @@
                 The cost per room or per bed is also mentioned, allowing students to understand the accommodation charges. Room details also include 
                 room type (single/double/shared) and other facilities available.
             </p>
-            <img src="<?= base_url('public/images/UserManual/hostel-rooms.png') ?>" alt="Hostel Rooms" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/hostel-rooms.png') ?>" alt="Hostel Rooms" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
     </div>
 </section>

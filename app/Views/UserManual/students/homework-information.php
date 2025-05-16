@@ -23,7 +23,7 @@
             <p class="text-gray-700 mb-4">
                 Each homework item will also have a status indicator (e.g., <span class="text-green-600">Submitted</span>, <span class="text-yellow-600">Pending</span>) to quickly understand what needs to be done.
             </p>
-            <img src="<?= base_url('public/images/UserManual/homework-list.png') ?>" alt="Homework List" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/homework-list.png') ?>" alt="Homework List" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <div id="submission-status" class="mb-12">
@@ -37,7 +37,7 @@
             <p class="text-gray-700 mb-4">
                 Make sure to keep track of submission dates to avoid penalties. You can also view any teacher remarks or feedback related to the submitted homework.
             </p>
-            <img src="<?= base_url('public/images/UserManual/submission-status.png') ?>" alt="Homework Details and Submission Status" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/submission-status.png') ?>" alt="Homework Details and Submission Status" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <div id="upload-submissions" class="mb-12">
@@ -48,7 +48,7 @@
             <p class="text-gray-700 mb-4">
                 Make sure to upload your homework before the due date to avoid late submissions. A confirmation message will appear once your homework is successfully uploaded.
             </p>
-            <img src="<?= base_url('public/images/UserManual/upload-submissions.png') ?>" alt="Upload Submissions" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/upload-submissions.png') ?>" alt="Upload Submissions" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <div id="download-material" class="mb-12">
@@ -59,7 +59,7 @@
             <p class="text-gray-700 mb-4">
                 Ensure to download the material as soon as it is available to have ample time for completion. The material could include sample answers, topic explanations, or helpful links.
             </p>
-            <img src="<?= base_url('public/images/UserManual/download-material.png') ?>" alt="Download Homework Material" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/download-material.png') ?>" alt="Download Homework Material" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
     </div>
 </section>

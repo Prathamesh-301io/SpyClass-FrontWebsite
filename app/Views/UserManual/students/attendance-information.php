@@ -56,7 +56,7 @@
                 The attendance calendar visually represents your attendance records with color-coded blocks for each date.
                 Easily identify your presence, absence, late marks, half-days, and holidays.
             </p>
-            <img src="<?= base_url('public/images/UserManual/attendance-calendar.png') ?>" alt="Attendance Calendar" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/attendance-calendar.png') ?>" alt="Attendance Calendar" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <!-- Attendance Legend -->
@@ -86,7 +86,7 @@
                     <p class="text-gray-600 mb-2">
                         View and manage your previously applied leaves. You can edit or delete leaves that are still pending approval.
                     </p>
-                    <img src="<?= base_url('public/images/UserManual/applied-leaves-list.png') ?>"
+                    <img src="<?= base_url('public/images/UserManual/students/applied-leaves-list.png') ?>"
                         alt="Applied Leaves List" class="rounded-xl shadow-lg w-full max-w-md mx-auto">
                 </div>
                 <div class="text-center">
@@ -94,7 +94,7 @@
                     <p class="text-gray-600 mb-2">
                         Apply for a new leave by providing the date range, reason, and optionally attaching relevant documents.
                     </p>
-                    <img src="<?= base_url('public/images/UserManual/add-leave.png') ?>"
+                    <img src="<?= base_url('public/images/UserManual/students/add-leave.png') ?>"
                         alt="Add Leave Form" class="rounded-xl shadow-lg w-full max-w-md mx-auto">
                 </div>
             </div>

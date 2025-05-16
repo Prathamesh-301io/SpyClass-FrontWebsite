@@ -23,7 +23,7 @@
             <p class="text-gray-700 mb-4">
                 You can view the complete list of notices, see details of each announcement, and download attached documents if available.
             </p>
-            <img src="<?= base_url('public/images/UserManual/notice-board.png') ?>" alt="Notice Board" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/notice-board.png') ?>" alt="Notice Board" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <div id="rules-regulations" class="mb-12">
@@ -44,7 +44,7 @@
                 Rules may be updated periodically, and it is essential to review them to ensure compliance. Any violations
                 can result in disciplinary action as specified by the institution's policies.
             </p>
-            <img src="<?= base_url('public/images/UserManual/rules-regulations.png') ?>" alt="Rules and Regulations" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/rules-regulations.png') ?>" alt="Rules and Regulations" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <div id="events" class="mb-12">
@@ -57,7 +57,7 @@
                 Events are color-coded to differentiate between types (e.g., academic, cultural, public). Click on an event to view more details
                 such as event description, date, time, and location.
             </p>
-            <img src="<?= base_url('public/images/UserManual/events-calendar.png') ?>" alt="Events Calendar" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
+            <img src="<?= base_url('public/images/UserManual/students/events-calendar.png') ?>" alt="Events Calendar" class="rounded-xl shadow-lg w-full max-w-3xl mx-auto">
         </div>
 
         <div id="todo-list" class="mb-12">
@@ -73,12 +73,12 @@
 
             <!-- Images Side by Side -->
             <div class="flex justify-center gap-6 mb-4">
-                <img src="<?= base_url('public/images/UserManual/todo-list-view.png') ?>"
+                <img src="<?= base_url('public/images/UserManual/students/todo-list-view.png') ?>"
                     alt="To-Do List View"
                     class="rounded-xl shadow-lg max-w-sm object-contain">
             </div>
             <div class="flex justify-center gap-6 mb-4">
-                <img src="<?= base_url('public/images/UserManual/todo-add-task.png') ?>"
+                <img src="<?= base_url('public/images/UserManual/students/todo-add-task.png') ?>"
                     alt="To-Do List View"
                     class="rounded-xl shadow-lg max-w-sm object-contain">
 
@@ -105,12 +105,12 @@
             </p>
 
             <div class="flex justify-center gap-6 mb-4" >
-                <img src="<?= base_url('public/images/UserManual/holiday-list-view.png') ?>"
+                <img src="<?= base_url('public/images/UserManual/students/holiday-list-view.png') ?>"
                     alt="Holiday List View"
                     class="rounded-xl shadow-lg max-w-sm object-contain">
             </div>
             <div class="flex justify-center gap-6 mb-4">
-                <img src="<?= base_url('public/images/UserManual/holiday-detail.png') ?>"
+                <img src="<?= base_url('public/images/UserManual/students/holiday-detail.png') ?>"
                     alt="Holiday List View"
                     class="rounded-xl shadow-lg max-w-sm object-contain">
             </div>
