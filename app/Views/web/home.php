@@ -14,12 +14,12 @@
          </div>
          <!-- Heading -->
          <h1
-            class="lg:text-[62px] md:text-[62px] leading-tight font-bold text-gray-900 mt-4 mx-auto"
+            class="spyclass-heading lg:text-[62px] md:text-[62px] leading-tight font-bold text-gray-900 mt-4 mx-auto"
             sty>
             Revolutionising School <br />
             Management with Our
-            <span class="text-purple-600 italic">Advanced <br />
-            School ERP Solution</span>
+            <span class="text-purple-600 ">Advanced <br />
+               School ERP Solution</span>
          </h1>
          <!-- Subtitle -->
          <p class="text-gray-600 mt-3 text-sm sm:text-base">
@@ -27,7 +27,7 @@
          </p>
          <!-- Buttons -->
          <div class="mt-6 flex justify-center space-x-4">
-            <button  onclick="openModal('contactModal')"
+            <button onclick="openModal('contactModal')"
                class="bg-[#6a1b9a] text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-[#6a1b9a] transition">
                Get Started
             </button>
@@ -373,17 +373,19 @@
                      1
                   </div>
                </div>
-               <div
-                  class="flex items-center space-x-3 bg-white p-4 rounded-lg w-full border">
-                  <span><img
-                        src="<?php echo base_url(); ?>/public/fassets/imgs/illustrations/glass.png"
-                        alt=""
-                        class="w-10 h-8" />
-                  </span>
-                  <p class="text-gray-700 text-sm">
+               <div class="flex items-center justify-between bg-white p-4 rounded-lg w-full border">
+                  <p class="text-gray-700 text-sm flex-1">
                      Automates core operations with minimal effort.
                   </p>
+                  <span class="flex-shrink-0 w-10 h-8">
+                     <img
+                        src="<?php echo base_url(); ?>/public/fassets/imgs/illustrations/glass.png"
+                        alt=""
+                        class="w-full h-full object-contain" />
+                  </span>
                </div>
+
+
             </div>
             <!-- Step 2 -->
             <div class="flex items-center space-x-8">
@@ -411,17 +413,19 @@
                   </div>
                </div>
                <div
-                  class="flex items-center space-x-3 bg-white p-4 rounded-lg w-full border">
-                  <span><img
-                        src="<?php echo base_url(); ?>/public/fassets/imgs/illustrations/laptop.png"
-                        alt=""
-                        class="w-10 h-7" />
-                  </span>
-                  <p class="text-gray-700 text-sm">
+                  class="flex items-center justify-between bg-white p-4 rounded-lg w-full border">
+                  <p class="text-gray-700 text-sm flex-1">
                      Enhances collaboration among all stakeholders.
                   </p>
+                  <span class="flex-shrink-0 w-10 h-8">
+                     <img
+                        src="<?php echo base_url(); ?>/public/fassets/imgs/illustrations/laptop.png"
+                        alt=""
+                        class="w-full h-full object-contain" />
+                  </span>
                </div>
             </div>
+
             <!-- Step 3 -->
             <div class="flex items-center space-x-8 z-1">
                <div class="relative">
@@ -431,17 +435,19 @@
                   </div>
                </div>
                <div
-                  class="flex items-center space-x-3 bg-white p-4 rounded-lg w-full border">
-                  <span><img
-                        src="<?php echo base_url(); ?>/public/fassets/imgs/illustrations/rocket.png"
-                        alt=""
-                        class="w-10 h-8" />
-                  </span>
-                  <p class="text-gray-700 text-sm">
+                  class="flex items-center justify-between bg-white p-4 rounded-lg w-full border">
+                  <p class="text-gray-700 text-sm flex-1">
                      Improves decision-making through real-time insights.
                   </p>
+                  <span class="flex-shrink-0 w-10 h-8">
+                     <img
+                        src="<?php echo base_url(); ?>/public/fassets/imgs/illustrations/rocket.png"
+                        alt=""
+                        class="w-full h-full object-contain" />
+                  </span>
                </div>
             </div>
+
             <!-- Dotted Line -->
          </div>
       </div>
@@ -461,40 +467,37 @@
    <section
       class="relative text-white lg:py-12 md:py-12 py-0 lg:pt-0 md:pt-0 pt-5 px-6 md:px-12 flex flex-col md:flex-row lg:flex-row items-center justify-between lg:h-[450px] md:h-[450px] h-auto"
       style="background: linear-gradient(360deg, #6a1b9a 0%, #a934f1 100%)">
-      <!-- Left Side - Text Content -->
+
       <div class="max-w-2xl text-left md:text-left mx-5 leading-normal">
-         <h2
-            class="lg:text-[62px] md:text-[62px] text-[32px] font-bold mb-4 text-white/70">
+
+         <h2 class="lg:text-[62px] md:text-[62px] text-[32px] font-bold text-white/70 leading-tight mb-4">
             Download Our <br />
             Mobile App
          </h2>
+
          <p class="text-lg mb-6">
             To improve communication, automate tasks, and enhance the learning
             <br />
             environment.
          </p>
-         <!-- App Store & Google Play Buttons -->
-         <div class="flex justify-start md:justify-start gap-4">
-            <!-- <a href="#" target="_blank" rel="noopener noreferrer">
-                     <img
-                        src="/public/fassets/imgs/backgrounds/appstore.png"
-                        alt="Download on the App Store"
-                        class="w-40 lg:h-12 md:h-12 sm:h-8"
-                        />
-                     </a> -->
-            <a href="#" target="_blank" rel="noopener noreferrer">
+
+         <div class="flex items-center gap-4">
+            <a href="https://play.google.com/store/apps/details?id=com.spyclass.edu" target="_blank" rel="noopener noreferrer">
                <img
                   src="<?php echo base_url(); ?>/public/fassets/imgs/backgrounds/playstore.png"
                   alt="Get it on Google Play"
                   class="w-40" />
             </a>
-            <br>
+            <div class="flex flex-col items-center">
+               <img
+                  src="<?php echo base_url(); ?>/public/fassets/imgs/backgrounds/spyclass_qr_hd.png"
+                  alt="Scan to Download"
+                  class="w-24 md:w-32 lg:w-36 aspect-square object-contain" />
+            </div>
          </div>
-         <div><br></div>
+
       </div>
-      <!-- Right Side - Mobile Mockup -->
-      <div
-         class="lg:absolute md:absolute relative mt-8 md:mt-0 right-0 bottom-0">
+      <div class="lg:absolute md:absolute relative mt-8 md:mt-0 right-0 bottom-0">
          <img
             src="<?php echo base_url(); ?>/public/fassets/imgs/placeholders/mobile.png"
             alt="Mobile App Preview"
@@ -514,14 +517,15 @@
                Analytical Tool
             </h1>
             <p class="text-gray-500 max-w-lg mx-auto mt-2">
-               Unlock the power of data with SpyClass ERP, your complete school analytics solution!
-               <br>
-               📊 Comprehensive Reports & Dashboards<br>
-               📈 Real-Time Insights on Admissions, Fees, Attendance & More<br>
-               💰 Track Income & Expenses for Smart Financial Planning<br>
-               📅 Automate Attendance & Performance Analysis<br>
-               📉 Identify Trends & Improve Decision-Making
+               Unlock the power of data with SpyClass ERP, your complete school analytics solution!<br>
+               1. Comprehensive Reports 📊 & Dashboards<br>
+               2. Real-Time Insights 📈 on Admissions, Fees, Attendance & More<br>
+               3. Track Income 💰 & Expenses for Smart Financial Planning<br>
+               4. Automate Attendance 📅 & Performance Analysis<br>
+               5. Identify Trends 📉 & Improve Decision-Making
             </p>
+
+
          </div>
          <!-- Cards Section -->
          <div class="space-y-8 lg:mx-12 md:mx-12 mx-5">
@@ -872,6 +876,3 @@
    </div>
 </section>
 </div>
-
-
-

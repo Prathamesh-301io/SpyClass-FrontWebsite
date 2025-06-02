@@ -1,67 +1,76 @@
                  .modal-header {
-                       background: linear-gradient(135deg, #7e57c2, #673ab7);
-                       color: white;
-                   }
+                     background: linear-gradient(135deg, #7e57c2, #673ab7);
+                     color: white;
+                 }
 
-                   .modal-content {
-                       border-radius: 12px;
-                       box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-                   }
+                 .modal-content {
+                     border-radius: 12px;
+                     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+                 }
 
-                   .btn-primary {
-                       background-color: #7e57c2;
-                       border-color: #673ab7;
-                       transition: 0.3s ease-in-out;
-                   }
+                 .btn-primary {
+                     background-color: #7e57c2;
+                     border-color: #673ab7;
+                     transition: 0.3s ease-in-out;
+                 }
 
-                   .btn-primary:hover {
-                       background-color: #5e35b1;
-                       border-color: #512da8;
-                   }
-                   /* Modal Styling */
-         .modal-content {
-             border-radius: 12px;
-             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-         }
+                 .btn-primary:hover {
+                     background-color: #5e35b1;
+                     border-color: #512da8;
+                 }
 
-         /* Modal Header */
-         .modal-header {
-             background: linear-gradient(135deg, #7B1FA2, #9C27B0);
-             color: white;
-             border-top-left-radius: 12px;
-             border-top-right-radius: 12px;
-         }
+                 /* Modal Styling */
+                 .modal-content {
+                     border-radius: 12px;
+                     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+                 }
 
-         /* Close Button */
-         .modal-header .btn-close {
-             filter: invert(1); /* Makes the close button white */
-         }
+                 /* Modal Header */
+                 .modal-header {
+                     background: linear-gradient(135deg, #7B1FA2, #9C27B0);
+                     color: white;
+                     border-top-left-radius: 12px;
+                     border-top-right-radius: 12px;
+                 }
 
-         /* Form Fields */
-         .form-control {
-             border-radius: 8px;
-             border: 1px solid #ddd;
-             padding: 10px;
-         }
+                 /* Close Button */
+                 .modal-header .btn-close {
+                     filter: invert(1);
+                     /* Makes the close button white */
+                 }
 
-         /* Form Input Focus */
-         .form-control:focus {
-             border-color: #9C27B0;
-             box-shadow: 0 0 5px rgba(156, 39, 176, 0.5);
-         }
+                 /* Form Fields */
+                 .form-control {
+                     border-radius: 8px;
+                     border: 1px solid #ddd;
+                     padding: 10px;
+                 }
 
-         /* Submit Button */
-         .btn-submit {
-             background-color: #9C27B0;
-             border: none;
-             color: white;
-             font-weight: bold;
-             transition: 0.3s ease-in-out;
-             padding: 10px;
-             border-radius: 8px;
-         }
+                 /* Form Input Focus */
+                 .form-control:focus {
+                     border-color: #9C27B0;
+                     box-shadow: 0 0 5px rgba(156, 39, 176, 0.5);
+                 }
 
-         .btn-submit:hover {
-             background-color: #7B1FA2;
-             transform: scale(1.05);
-         }
+                 /* Submit Button */
+                 .btn-submit {
+                     background-color: #9C27B0;
+                     border: none;
+                     color: white;
+                     font-weight: bold;
+                     transition: 0.3s ease-in-out;
+                     padding: 10px;
+                     border-radius: 8px;
+                 }
+
+                 .btn-submit:hover {
+                     background-color: #7B1FA2;
+                     transform: scale(1.05);
+                 }
+
+                 @media screen and (max-width: 800px) {
+                     .spyclass-heading {
+                         font-size: 2rem;
+                     }
+
+                 }

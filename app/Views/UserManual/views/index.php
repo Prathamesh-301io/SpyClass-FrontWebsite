@@ -35,17 +35,19 @@ $roles = [
         <!-- Role Cards -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <?php foreach ($roles as $role): ?>
-                <a href="<?= base_url($role['path']); ?>" class="block bg-white rounded-2xl shadow-lg hover:shadow-2xl p-8 transition-all duration-300 group">
-                    <div class="flex items-start space-x-5 mb-4">
-                        <div class="bg-purple-100 text-purple-700 p-4 rounded-full">
-                            <i class="fas fa-<?= $role['icon']; ?> fa-2x"></i>
-                        </div>
-                        <div>
-                            <h3 class="text-2xl font-semibold text-gray-800 group-hover:text-purple-700"><?= $role['title']; ?></h3>
-                            <p class="text-md text-gray-500 mt-1"><?= $role['desc']; ?></p>
+                <a href="<?= base_url($role['path']); ?>" class="flex flex-col bg-white rounded-2xl shadow-lg hover:shadow-2xl p-8 transition-all duration-300 group">
+                    <div>
+                        <div class="flex items-start space-x-5 mb-4">
+                            <div class="bg-purple-100 text-purple-700 p-4 rounded-full">
+                                <i class="fas fa-<?= $role['icon']; ?> fa-2x"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-semibold text-gray-800 group-hover:text-purple-700"><?= $role['title']; ?></h3>
+                                <p class="text-md text-gray-500 mt-1"><?= $role['desc']; ?></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="mt-4">
+                    <div class="mt-auto pt-4">
                         <p class="text-sm font-medium text-gray-700 mb-1">Key Modules:</p>
                         <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
                             <?php foreach ($role['modules'] as $module): ?>

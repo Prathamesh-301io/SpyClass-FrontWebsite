@@ -5,3 +5,5 @@ writable/logs/
 writable/
 app/config/
 demo.spyclass/
+public.zip
+.env

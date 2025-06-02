@@ -15,19 +15,22 @@
    <link rel="stylesheet" href="<?php echo base_url(); ?>/public/fassets/css/slick.css?v=2.0" />
    <!-- Template CSS -->
    <link rel="stylesheet" href="<?php echo base_url(); ?>/public/fassets/css/tailwind-built.css?v=2.0" />
-   <link rel="stylesheet" href="<?php echo base_url(); ?>/public/fassets/css/custom.css?v=2.0" />
+   <link rel="stylesheet" href="<?php echo base_url(); ?>/public/fassets/css/custom.css?v=<?php echo filemtime('public/fassets/css/custom.css'); ?>" />
    <script src="https://cdn.tailwindcss.com"></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
    <script type="text/javascript">
       var site_url = '<?php echo base_url(); ?>';
    </script>
-   <style>
-      body {
-         user-select: none;
-         -webkit-user-select: none;
-      }
-   </style>
+   <?php if (ENVIRONMENT === 'production'): ?>
+      <style>
+         body {
+            user-select: none;
+            -webkit-user-select: none;
+         }
+      </style>
+
+   <?php endif; ?>
 
 
 </head>

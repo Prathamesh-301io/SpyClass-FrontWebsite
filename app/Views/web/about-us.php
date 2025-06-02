@@ -14,9 +14,9 @@
 
             <h1
                 class="mt-6 text-gray-900 font-bold text-[36px] sm:text-[48px] lg:text-[60px] leading-tight tracking-tight text-center max-w-[1100px] mx-auto animate-fade-in-up">
-                The <span class="text-purple-600 italic">Ultimate School ERP</span> for<br class="lg:block hidden" />
-                digitalizing school <span class="text-[#6A1B9A] font-semibold italic">operations &</span><br class="lg:block hidden" />
-                <span class="text-[#6A1B9A] font-semibold italic">management.</span>
+                The <span class="text-purple-600 ">Ultimate School ERP</span> for<br class="lg:block hidden" />
+                digitalizing school <span class="text-[#6A1B9A] font-semibold ">operations &</span><br class="lg:block hidden" />
+                <span class="text-[#6A1B9A] font-semibold">management.</span>
             </h1>
         </div>
 

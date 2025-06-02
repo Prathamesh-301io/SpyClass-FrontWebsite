@@ -6,7 +6,7 @@
          <p class="text-slate-200 text-sm leading-[22px] mb-4">
             SpyClass offers innovative tools for school management, enhancing productivity for educators, students, and administrators.
          </p>
-         <div class="flex mt-6 space-x-6">
+         <!-- <div class="flex mt-6 space-x-6">
             <a href="#" class="text-[#8849AE] hover:text-white transition duration-300 ease-in-out">
                <i class="fab fa-twitter fa-lg"></i>
             </a>
@@ -19,7 +19,7 @@
             <a href="#" class="text-[#8849AE] hover:text-white transition duration-300 ease-in-out">
                <i class="fab fa-github fa-lg"></i>
             </a>
-         </div>
+         </div> -->
       </div>
 
       <!-- Company Links Section -->
@@ -43,23 +43,27 @@
       </div>
    </div>
 
-   <!-- Contact Information Bar -->
-   <div class="bg-[#141A24] mt-4 border-t border-white max-w-[1440px] h-[50px] mx-auto flex items-center justify-center space-x-8 px-6 pt-3">
-      <div class="flex items-center gap-3 text-white">
-         <a href="tel:+919270085057" class="hover:text-gray-300 transition duration-300 ease-in-out flex items-center gap-1.5">
-            <i class="fas fa-phone text-2xl"></i>
-            <span class="font-['DM_Sans'] font-normal text-[15px]">+91 9270085057</span>
-         </a>
-         <span class="text-white text-sm">|</span>
-         <a href="tel:+919021348235" class="hover:text-gray-300 transition duration-300 ease-in-out flex items-center gap-1.5">
-            <span class="font-['DM_Sans'] font-normal text-[15px]">+91 9021348235</span>
-         </a>
-      </div>
+   <div class="bg-[#141A24] mt-4 border-t border-white max-w-[1440px] h-auto mx-auto px-6 pt-3 text-white text-sm">
+      <div class="flex flex-col md:flex-row items-center justify-between">
 
-      <a href="mailto:sales@spyclass.co.in" class="text-white hover:text-gray-300 transition duration-300 ease-in-out flex items-center gap-5">
-         <i class="fas fa-envelope text-3xl"></i>
-         <span class="font-['DM_Sans'] font-normal text-[15px]">sales@spyclass.co.in</span>
-      </a>
+         <div class="flex flex-row flex-wrap justify-center md:justify-start items-center gap-x-4 gap-y-2">
+            <a href="tel:+919270085057" class="hover:text-gray-300 transition duration-300 ease-in-out flex items-center gap-1.5 whitespace-nowrap">
+               <i class="fas fa-phone text-2xl"></i>
+               <span class="font-['DM_Sans'] font-normal text-[15px]">+91 9270085057</span>
+            </a>
+            <span class="hidden sm:inline text-white text-sm">|</span>
+            <a href="tel:+919021348235" class="hover:text-gray-300 transition duration-300 ease-in-out flex items-center gap-1.5 whitespace-nowrap">
+               <span class="font-['DM_Sans'] font-normal text-[15px]">+91 9021348235</span>
+            </a>
+         </div>
+
+         <div class="flex justify-center md:justify-center">
+            <a href="mailto:sales@spyclass.co.in" class="hover:text-gray-300 transition duration-300 ease-in-out flex items-center gap-2">
+               <i class="fas fa-envelope text-2xl"></i>
+               <span class="font-['DM_Sans'] font-normal text-[15px]">sales@spyclass.co.in</span>
+            </a>
+         </div>
+      </div>
    </div>
 
    <!-- Footer Bottom Section -->
