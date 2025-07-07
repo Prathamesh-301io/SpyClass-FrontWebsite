@@ -54,7 +54,7 @@
             <div class="hidden lg:flex space-x-2 xl:space-x-4">
                <a class="font-semibold py-2 px-4 rounded-lg <?= ($currentPage == '') ? 'text-purple-700 font-bold  bg-purple-100' : 'text-gray-700 hover:bg-gray-100'; ?>" href="<?php echo base_url(); ?>">Home</a>
                <a class="font-semibold py-2 px-4 rounded-lg <?= ($currentPage == 'about-us') ? 'text-purple-700 font-bold  bg-purple-100' : 'text-gray-700 hover:bg-gray-100'; ?>" href="<?php echo base_url('about-us'); ?>">About Us</a>
-               <a class="font-semibold py-2 px-4 rounded-lg" onclick="openModal('contactModal')" style="cursor: pointer;">Contact Us</a>
+               <a class="font-semibold py-2 px-4 rounded-lg" href="#contact-us" style="cursor: pointer;">Contact Us</a>
                <a class="font-semibold py-2 px-4 rounded-lg <?= ($currentPage == 'usermanual') ? 'text-purple-700 font-bold  bg-purple-100' : 'text-gray-700 hover:bg-gray-100'; ?>" href="<?php echo base_url('usermanual'); ?>" target="_blank">User Manual</a>
             </div>
 
@@ -87,7 +87,7 @@
             <div class="flex flex-col space-y-3">
                <a class="font-semibold py-2 px-4 rounded-full <?= ($currentPage == '') ? 'bg-purple-700 text-white' : 'text-gray-700 hover:bg-gray-100'; ?>" href="<?php echo base_url(); ?>">Home</a>
                <a class="font-semibold py-2 px-4 rounded-full <?= ($currentPage == 'about-us') ? 'text-purple-700 font-bold  bg-purple-100' : 'text-gray-700 hover:bg-gray-100'; ?>" href="<?php echo base_url('about-us'); ?>">About Us</a>
-               <a class="font-semibold py-2 px-4 rounded-full" onclick="openModal('contactModal')" style="cursor: pointer;">Contact Us</a>
+               <a class="font-semibold py-2 px-4 rounded-full" href="#contact-us" style="cursor: pointer;">Contact Us</a>
                <a class="font-semibold py-2 px-4 rounded-full <?= ($currentPage == 'usermanual') ? 'text-purple-700 font-bold  bg-purple-100' : 'text-gray-700 hover:bg-gray-100'; ?>" href="<?php echo base_url('usermanual'); ?>" target="_blank">User Manual</a>
             </div>
             <div class="mt-auto flex space-x-3">

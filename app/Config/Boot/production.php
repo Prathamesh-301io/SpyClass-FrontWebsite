@@ -24,4 +24,3 @@ ini_set('display_errors', '0');
  */
 defined('CI_DEBUG') || define('CI_DEBUG', false);
 require_once APPPATH . 'Config/Constants.php';
-

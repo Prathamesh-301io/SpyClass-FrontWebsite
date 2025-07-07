@@ -1,84 +1,310 @@
-<footer class="bg-[#141A24] text-white">
-   <div class="container mx-auto py-8 sm:py-10 lg:py-12 px-4 sm:px-6 lg:px-8 max-w-[1599px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-12">
-      <!-- About SpyClass Section -->
-      <div class="max-w-[396px]">
-         <h4 class="font-semibold text-lg leading-6 mb-4 text-white">About SpyClass</h4>
-         <p class="text-slate-200 text-sm leading-[22px] mb-4">
+<section id="contact-us" class="bg-white py-16">
+   <div class="bg-[#F9FAFB] mx-auto max-w-7xl px-6 lg:px-12 py-14 rounded-3xl shadow-xl border border-gray-200 transition-all duration-300">
+      <div class="grid grid-cols-1 gap-12 lg:grid-cols-2 items-start">
+
+         <!-- Left Column -->
+         <div class="space-y-5">
+            <p class="text-sm font-semibold text-[#7F56D9] tracking-wide uppercase">Contact Us</p>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-tight">Let’s connect</h1>
+            <p class="text-lg text-gray-600">
+               We’d love to hear from you. Whether you have a question or just want to say hi — fill out the form and we’ll get back to you.
+            </p>
+         </div>
+
+         <!-- Right Column: Form -->
+         <div>
+            <form id="contactFormFinal" method="POST" action="<?php echo getenv('SUPERADMIN_BASE_URL') . 'lead/submit'; ?>" novalidate class="space-y-6">
+
+               <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  <div>
+                     <label for="firstname" class="text-sm font-medium text-gray-800">First name</label>
+                     <input type="text" name="firstname" id="firstname" placeholder="John" autocomplete="given-name"
+                        class="mt-2 w-full rounded-xl border border-gray-300 px-4 py-3 shadow-sm text-gray-900 focus:border-[#7F56D9] focus:ring-2 focus:ring-[#7F56D9] placeholder:text-gray-400 sm:text-sm">
+                     <p id="firstname-error" class="text-xs text-red-600 mt-1 h-4"></p>
+                  </div>
+                  <div>
+                     <label for="lastname" class="text-sm font-medium text-gray-800">Last name</label>
+                     <input type="text" name="lastname" id="lastname" placeholder="Doe" autocomplete="family-name"
+                        class="mt-2 w-full rounded-xl border border-gray-300 px-4 py-3 shadow-sm text-gray-900 focus:border-[#7F56D9] focus:ring-2 focus:ring-[#7F56D9] placeholder:text-gray-400 sm:text-sm">
+                     <p id="lastname-error" class="text-xs text-red-600 mt-1 h-4"></p>
+                  </div>
+               </div>
+
+               <div>
+                  <label for="email" class="text-sm font-medium text-gray-800">Email</label>
+                  <input type="email" name="email" id="email" placeholder="you@company.com" autocomplete="email"
+                     class="mt-2 w-full rounded-xl border border-gray-300 px-4 py-3 shadow-sm text-gray-900 focus:border-[#7F56D9] focus:ring-2 focus:ring-[#7F56D9] placeholder:text-gray-400 sm:text-sm">
+                  <p id="email-error" class="text-xs text-red-600 mt-1 h-4"></p>
+               </div>
+
+               <div>
+                  <label for="contact_number" class="text-sm font-medium text-gray-800">Phone number</label>
+                  <div class="relative mt-2">
+
+                     <input type="tel" name="contact_number" id="contact_number" placeholder="9876543210" autocomplete="tel"
+                        class="w-full pl-20 rounded-xl border border-gray-300 px-4 py-3 shadow-sm text-gray-900 focus:border-[#7F56D9] focus:ring-2 focus:ring-[#7F56D9] placeholder:text-gray-400 sm:text-sm">
+                  </div>
+                  <p id="contact_number-error" class="text-xs text-red-600 mt-1 h-4"></p>
+               </div>
+
+               <div>
+                  <label for="comment" class="text-sm font-medium text-gray-800">Message</label>
+                  <textarea name="comment" id="comment" rows="4" placeholder="Your message..."
+                     class="mt-2 w-full rounded-xl border border-gray-300 px-4 py-3 shadow-sm text-gray-900 focus:border-[#7F56D9] focus:ring-2 focus:ring-[#7F56D9] placeholder:text-gray-400 sm:text-sm"></textarea>
+                  <p id="comment-error" class="text-xs text-red-600 mt-1 h-4"></p>
+               </div>
+
+               <div class="flex items-start gap-3">
+                  <input type="checkbox" id="agreement" name="agreement" class="mt-1 h-4 w-4 rounded text-[#7F56D9] border-gray-300 focus:ring-[#7F56D9]">
+                  <label for="agreement" class="text-sm text-gray-700">I agree to the <a href="#" class="text-[#7F56D9] font-medium underline">privacy policy</a>.</label>
+                  <p id="agreement-error" class="text-xs text-red-600 h-4"></p>
+               </div>
+
+               <div>
+                  <button type="submit" id="submit-button"
+                     class="w-full rounded-xl bg-[#7F56D9] px-6 py-3 text-sm font-semibold text-white shadow-lg hover:bg-[#6B47C9] transition-all duration-200">
+                     Send message
+                  </button>
+               </div>
+            </form>
+         </div>
+
+      </div>
+   </div>
+</section>
+
+
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('contactFormFinal');
+      if (!form) return;
+
+      const submitButton = document.getElementById('submit-button');
+
+      // Define all fields for validation
+      const fields = {
+         firstname: {
+            el: document.getElementById('firstname'),
+            errorEl: document.getElementById('firstname-error'),
+            validate: (val) => val.trim() !== '',
+            msg: 'Please enter your first name.'
+         },
+         lastname: {
+            el: document.getElementById('lastname'),
+            errorEl: document.getElementById('lastname-error'),
+            validate: (val) => val.trim() !== '',
+            msg: 'Please enter your last name.'
+         },
+
+         contact_number: {
+            el: document.getElementById('contact_number'),
+            errorEl: document.getElementById('contact_number-error'),
+            validate: (val) => /^\d{10}$/.test(val),
+            msg: 'Please enter a valid 10-digit number.'
+         },
+         comment: {
+            el: document.getElementById('comment'),
+            errorEl: document.getElementById('comment-error'),
+            validate: (val) => val.trim() !== '',
+            msg: 'Please enter your message.'
+         },
+         agreement: {
+            el: document.getElementById('agreement'),
+            errorEl: document.getElementById('agreement-error'),
+            validate: (el) => el.checked,
+            msg: 'You must agree to the privacy policy.'
+         }
+      };
+
+      const showError = (field) => {
+         if (field.errorEl) field.errorEl.textContent = field.msg;
+         if (field.el) {
+            field.el.classList.add('ring-red-500');
+            field.el.classList.remove('ring-gray-300', 'focus:ring-purple-600');
+         }
+      };
+
+      const hideError = (field) => {
+         if (field.errorEl) field.errorEl.textContent = '';
+         if (field.el) {
+            field.el.classList.remove('ring-red-500');
+            field.el.classList.add('ring-gray-300', 'focus:ring-purple-600');
+         }
+      };
+
+      const validateField = (fieldName) => {
+         const field = fields[fieldName];
+         const value = field.el.type === 'checkbox' ? field.el : field.el.value;
+
+         if (!field.validate(value)) {
+            showError(field);
+            return false;
+         }
+         hideError(field);
+         return true;
+      };
+
+      // Add real-time validation feedback on input
+      for (const fieldName in fields) {
+         if (fields[fieldName].el) {
+            const eventType = fields[fieldName].el.type === 'checkbox' ? 'change' : 'input';
+            fields[fieldName].el.addEventListener(eventType, () => validateField(fieldName));
+         }
+      }
+
+      form.addEventListener('submit', function(event) {
+         event.preventDefault();
+
+         let isFormValid = true;
+         for (const fieldName in fields) {
+            if (!validateField(fieldName)) {
+               isFormValid = false;
+            }
+         }
+
+         if (!isFormValid) {
+            console.log('Client-side validation failed.');
+            return;
+         }
+
+         // Form is valid — proceed with sending
+         submitButton.disabled = true;
+         submitButton.textContent = 'Sending...';
+
+         const formData = new FormData(form);
+
+         fetch(form.action, {
+               method: 'POST',
+               body: formData,
+            })
+            .then(response => response.json().then(data => ({
+               status: response.status,
+               body: data
+            })))
+            .then(({
+               status,
+               body
+            }) => {
+               if (status === 200 && body.status) {
+                  Swal.fire({
+                     icon: 'success',
+                     title: 'Thank you!',
+                     text: 'Your message has been sent successfully.',
+                     confirmButtonColor: '#7F56D9'
+                  });
+
+                  form.reset(); // Clear the form
+
+                  // Reset all validation states
+                  for (const fieldName in fields) {
+                     hideError(fields[fieldName]);
+                  }
+
+               } else if (body.errors) {
+                  // Show server-side validation errors
+                  for (const key in body.errors) {
+                     if (fields[key]) {
+                        // Override client message with server message
+                        fields[key].msg = body.errors[key];
+                        showError(fields[key]);
+                     }
+                  }
+               } else {
+                  // Generic error for other issues
+                  Swal.fire({
+                     icon: 'error',
+                     title: 'Submission Failed',
+                     text: body.message || 'Something went wrong. Please try again.',
+                     confirmButtonColor: '#7F56D9'
+                  });
+               }
+            })
+            .catch(error => {
+               console.error('Submission failed:', error);
+               Swal.fire({
+                  icon: 'error',
+                  title: 'Error',
+                  text: 'Could not connect to the server. Please check your connection and try again.',
+                  confirmButtonColor: '#7F56D9'
+               });
+            })
+            .finally(() => {
+               submitButton.disabled = false;
+               submitButton.textContent = 'Send Message';
+            });
+      });
+   });
+</script>
+
+
+<footer class="bg-[#141A24] text-white text-sm font-[DM_Sans]">
+   <div class="max-w-[1599px] mx-auto px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 border-b border-white/10">
+
+      <!-- About -->
+      <div class="max-w-md">
+         <h4 class="text-lg font-semibold mb-4">About SpyClass</h4>
+         <p class="text-slate-300 leading-relaxed">
             SpyClass offers innovative tools for school management, enhancing productivity for educators, students, and administrators.
          </p>
-         <!-- <div class="flex mt-6 space-x-6">
-            <a href="#" class="text-[#8849AE] hover:text-white transition duration-300 ease-in-out">
-               <i class="fab fa-twitter fa-lg"></i>
-            </a>
-            <a href="#" class="text-[#8849AE] hover:text-white transition duration-300 ease-in-out">
-               <i class="fab fa-facebook-f fa-lg"></i>
-            </a>
-            <a href="#" class="text-[#8849AE] hover:text-white transition duration-300 ease-in-out">
-               <i class="fab fa-instagram fa-lg"></i>
-            </a>
-            <a href="#" class="text-[#8849AE] hover:text-white transition duration-300 ease-in-out">
-               <i class="fab fa-github fa-lg"></i>
-            </a>
-         </div> -->
+         <!-- Optional social icons -->
+
+         <div class="flex space-x-4 mt-6 text-[#8849AE]">
+            <a href="#" aria-label="Twitter" class="hover:text-white"><i class="fab fa-twitter text-xl"></i></a>
+            <a href="#" aria-label="Facebook" class="hover:text-white"><i class="fab fa-facebook-f text-xl"></i></a>
+            <a href="#" aria-label="Instagram" class="hover:text-white"><i class="fab fa-instagram text-xl"></i></a>
+            <a href="#" aria-label="GitHub" class="hover:text-white"><i class="fab fa-github text-xl"></i></a>
+         </div>
+
       </div>
 
-      <!-- Company Links Section -->
+      <!-- Company -->
       <div>
-         <h4 class="font-bold text-lg leading-6 mb-4 text-white">Company</h4>
-         <ul class="space-y-2">
-            <li><a href="<?php echo base_url(); ?>" class="text-slate-200 hover:text-white transition duration-300 text-sm">Home</a></li>
-            <li><a href="<?php echo base_url('about-us'); ?>" class="text-slate-200 hover:text-white transition duration-300 text-sm">About</a></li>
-            <li><a onclick="openModal('contactModal')" class="cursor-pointer text-slate-200 hover:text-white transition duration-300 text-sm">Contact</a></li>
+         <h4 class="text-lg font-bold mb-4">Company</h4>
+         <ul class="space-y-3 text-slate-300">
+            <li><a href="<?= base_url(); ?>" class="hover:text-white transition">Home</a></li>
+            <li><a href="<?= base_url('about-us'); ?>" class="hover:text-white transition">About</a></li>
+            <li><a href="#contact-us" class="hover:text-white transition cursor-pointer">Contact</a></li>
          </ul>
       </div>
 
-      <!-- Help Section -->
+      <!-- Help -->
       <div>
-         <h4 class="font-bold text-lg leading-6 mb-4 text-white">Help</h4>
-         <ul class="space-y-2">
-            <li><a href="<?php echo base_url('faq'); ?>" class="text-slate-200 hover:text-white transition duration-300 text-sm">FAQ's</a></li>
-            <li><a href="<?php echo base_url('terms-and-conditions'); ?>" class="text-slate-200 hover:text-white transition duration-300 text-sm">Terms & Conditions</a></li>
-            <li><a href="<?php echo base_url('privacy-policy'); ?>" class="text-slate-200 hover:text-white transition duration-300 text-sm">Privacy Policy</a></li>
+         <h4 class="text-lg font-bold mb-4">Help</h4>
+         <ul class="space-y-3 text-slate-300">
+            <li><a href="<?= base_url('faq'); ?>" class="hover:text-white transition">FAQs</a></li>
+            <li><a href="<?= base_url('terms-and-conditions'); ?>" class="hover:text-white transition">Terms & Conditions</a></li>
+            <li><a href="<?= base_url('privacy-policy'); ?>" class="hover:text-white transition">Privacy Policy</a></li>
          </ul>
       </div>
    </div>
 
-   <div class="bg-[#141A24] mt-4 border-t border-white max-w-[1440px] h-auto mx-auto px-6 pt-3 text-white text-sm">
-      <div class="flex flex-col md:flex-row items-center justify-between">
-
-         <div class="flex flex-row flex-wrap justify-center md:justify-start items-center gap-x-4 gap-y-2">
-            <a href="tel:+919270085057" class="hover:text-gray-300 transition duration-300 ease-in-out flex items-center gap-1.5 whitespace-nowrap">
-               <i class="fas fa-phone text-2xl"></i>
-               <span class="font-['DM_Sans'] font-normal text-[15px]">+91 9270085057</span>
-            </a>
-            <span class="hidden sm:inline text-white text-sm">|</span>
-            <a href="tel:+919021348235" class="hover:text-gray-300 transition duration-300 ease-in-out flex items-center gap-1.5 whitespace-nowrap">
-               <span class="font-['DM_Sans'] font-normal text-[15px]">+91 9021348235</span>
-            </a>
-         </div>
-
-         <div class="flex justify-center md:justify-center">
-            <a href="mailto:sales@spyclass.co.in" class="hover:text-gray-300 transition duration-300 ease-in-out flex items-center gap-2">
-               <i class="fas fa-envelope text-2xl"></i>
-               <span class="font-['DM_Sans'] font-normal text-[15px]">sales@spyclass.co.in</span>
-            </a>
-         </div>
+   <!-- Contact Info -->
+   <div class="max-w-[1440px] mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="flex flex-wrap justify-center md:justify-start items-center gap-4 text-slate-300">
+         <a href="tel:+919270085057" class="flex items-center gap-2 hover:text-white">
+            <i class="fas fa-phone text-xl"></i> <span>+91 9270085057</span>
+         </a>
+         <span class="hidden sm:inline">|</span>
+         <a href="tel:+919021348235" class="flex items-center gap-2 hover:text-white">
+            <span>+91 9021348235</span>
+         </a>
+      </div>
+      <div>
+         <a href="mailto:sales@spyclass.co.in" class="flex items-center gap-2 hover:text-white text-slate-300">
+            <i class="fas fa-envelope text-xl"></i> <span>sales@spyclass.co.in</span>
+         </a>
       </div>
    </div>
 
-   <!-- Footer Bottom Section -->
-   <div class="bg-[#1D2636] py-4 mt-8">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-         <p class="font-['DM_Sans'] font-normal text-sm sm:text-base leading-normal text-center text-white-600">
-            © 2024-2025, All Rights Reserved | Designed by
-            <a href="https://zeplinix.com/" target="_blank" class="underline hover:text-gray-300 transition duration-300 ease-in-out">
-               Zeplinix Technologies Pvt Ltd
-            </a>
-         </p>
-
+   <!-- Footer Bottom -->
+   <div class="bg-[#1D2636] py-4 mt-2">
+      <div class="text-center text-slate-400 text-sm px-4">
+         © 2024-2025, All Rights Reserved | Designed by
+         <a href="https://zeplinix.com/" target="_blank" class="underline hover:text-white">Zeplinix Technologies Pvt Ltd</a>
       </div>
    </div>
 </footer>
+
 
 <!-- Preloader Section -->
 <div id="preloader-active">
@@ -207,6 +433,38 @@
       }, 200);
    }
 </script>
+
+<script type="text/javascript">
+   window.addEventListener('load', function() {
+      var Tawk_API = Tawk_API || {},
+         Tawk_LoadStart = new Date();
+      var s1 = document.createElement("script");
+      s1.src = 'https://embed.tawk.to/685e94d26a55a6191184b734/1iuonalr8';
+      s1.async = true;
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      document.body.appendChild(s1);
+   });
+</script>
+
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+      var s1 = document.createElement("script");
+      s1.src = "https://cdn.jsdelivr.net/npm/sweetalert2@11";
+      s1.defer = true;
+      document.body.appendChild(s1);
+   });
+</script>
+
+<script>
+   window.addEventListener("load", function() {
+      const preloader = document.getElementById('preloader-active');
+      if (preloader) {
+         preloader.style.display = 'none';
+      }
+   });
+</script>
+
 </body>
 
 </html>

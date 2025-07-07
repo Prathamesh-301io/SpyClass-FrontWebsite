@@ -7,3 +7,6 @@ app/config/
 demo.spyclass/
 public.zip
 .env
+/nbproject/private/
+vendor/
+superadmin/*

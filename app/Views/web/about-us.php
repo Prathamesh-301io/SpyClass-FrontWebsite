@@ -1,6 +1,6 @@
 <section class="relative xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24 overflow-hidden"
     style="background-image: url('<?php echo base_url(); ?>/public/fassets/imgs/svg/banner.svg')">
-    
+
     <!-- Subtle background overlay for depth -->
     <div class="absolute inset-0 bg-gradient-to-b from-white/90 to-purple-50/30 pointer-events-none"></div>
 
@@ -63,230 +63,230 @@
 </section>
 
 
- <section class="mt-16">
-     <div class="space-y-16">
-         <!-- Our Mission -->
-         <div class="flex flex-col lg:flex-row lg:relative">
-             <div class="bg-[#0A4BF0C2] p-6 lg:p-10 w-full lg:w-3/5 lg:absolute lg:left-0 lg:top-0 lg:z-10 rounded-r-2xl shadow-lg">
-                 <div class="text-left lg:pl-8 text-white">
-                     <h2 class="text-3xl sm:text-4xl font-bold mb-5 text-white text-center lg:text-left">Our Mission</h2>
-                     <ul class="list-disc list-inside space-y-2 text-base sm:text-lg">
-                         <li>Automate administrative processes and eliminate inefficiencies.</li>
-                         <li>Foster a data-driven culture for informed decision-making.</li>
-                         <li>Improve collaboration between teachers, students, and parents.</li>
-                         <li>Provide a scalable, affordable, and accessible ERP solution for schools of all sizes.</li>
-                     </ul>
-                 </div>
-             </div>
-             <img src="<?php echo base_url(); ?>public/assets/imgs/page2/hands.png" alt="Teamwork"
-                 class="w-full lg:w-3/5 lg:ml-auto object-cover rounded-lg shadow-xl" />
-         </div>
+<section class="mt-16">
+    <div class="space-y-16">
+        <!-- Our Mission -->
+        <div class="flex flex-col lg:flex-row lg:relative">
+            <div class="bg-[#0A4BF0C2] p-6 lg:p-10 w-full lg:w-3/5 lg:absolute lg:left-0 lg:top-0 lg:z-10 rounded-r-2xl shadow-lg">
+                <div class="text-left lg:pl-8 text-white">
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-5 text-white text-center lg:text-left">Our Mission</h2>
+                    <ul class="list-disc list-inside space-y-2 text-base sm:text-lg">
+                        <li>Automate administrative processes and eliminate inefficiencies.</li>
+                        <li>Foster a data-driven culture for informed decision-making.</li>
+                        <li>Improve collaboration between teachers, students, and parents.</li>
+                        <li>Provide a scalable, affordable, and accessible ERP solution for schools of all sizes.</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="<?php echo base_url(); ?>public/assets/imgs/page2/hands.png" alt="Teamwork"
+                class="w-full lg:w-3/5 lg:ml-auto object-cover rounded-lg shadow-xl" />
+        </div>
 
-         <!-- Our Vision -->
-         <div class="flex flex-col lg:flex-row-reverse lg:relative">
-             <div class="bg-[#9B0AF0C2] p-6 lg:p-10 w-full lg:w-3/5 lg:absolute lg:right-0 lg:bottom-0 lg:z-10 rounded-l-2xl shadow-lg">
-                 <div class="text-right lg:pr-8 text-white">
-                     <h2 class="text-3xl sm:text-4xl font-bold mb-5 text-white text-center lg:text-right">Our Vision</h2>
-                     <ul class="list-disc list-inside space-y-2 text-base sm:text-lg">
-                         <li>Become the most trusted ERP solution in the education sector.</li>
-                         <li>Enable schools to shift towards paperless, cloud-based administration.</li>
-                         <li>Improve collaboration between teachers, students, and parents.</li>
-                         <li>Provide a scalable, affordable, and accessible ERP solution for schools of all sizes.</li>
-                     </ul>
-                 </div>
-             </div>
-             <img src="<?php echo base_url(); ?>public/assets/imgs/page2/Students.png" alt="Students working together"
-                 class="w-full lg:w-3/5 object-cover rounded-lg shadow-xl" />
-         </div>
-     </div>
- </section>
+        <!-- Our Vision -->
+        <div class="flex flex-col lg:flex-row-reverse lg:relative">
+            <div class="bg-[#9B0AF0C2] p-6 lg:p-10 w-full lg:w-3/5 lg:absolute lg:right-0 lg:bottom-0 lg:z-10 rounded-l-2xl shadow-lg">
+                <div class="text-right lg:pr-8 text-white">
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-5 text-white text-center lg:text-right">Our Vision</h2>
+                    <ul class="list-disc list-inside space-y-2 text-base sm:text-lg">
+                        <li>Become the most trusted ERP solution in the education sector.</li>
+                        <li>Enable schools to shift towards paperless, cloud-based administration.</li>
+                        <li>Improve collaboration between teachers, students, and parents.</li>
+                        <li>Provide a scalable, affordable, and accessible ERP solution for schools of all sizes.</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="<?php echo base_url(); ?>public/assets/imgs/page2/Students.png" alt="Students working together"
+                class="w-full lg:w-3/5 object-cover rounded-lg shadow-xl" />
+        </div>
+    </div>
+</section>
 
- <!-- Impact Section -->
- <section class="py-12 sm:py-16 lg:py-20 bg-gray-50">
-     <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-[1120px]">
-         <h2 class="font-bold text-zinc-800 text-4xl sm:text-5xl lg:text-[56px] leading-tight tracking-tight">
-             Making an Impact with SpyClass
-         </h2>
-         <p class="mt-4 sm:mt-6 text-zinc-600 text-lg sm:text-xl leading-relaxed max-w-[720px] mx-auto">
-             Unlike generic ERP solutions, SpyClass ERP is designed exclusively for schools.<br class="hidden lg:block" />
-             Here's why institutions trust us.
-         </p>
+<!-- Impact Section -->
+<section class="py-12 sm:py-16 lg:py-20 bg-gray-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-[1120px]">
+        <h2 class="font-bold text-zinc-800 text-4xl sm:text-5xl lg:text-[56px] leading-tight tracking-tight">
+            Making an Impact with SpyClass
+        </h2>
+        <p class="mt-4 sm:mt-6 text-zinc-600 text-lg sm:text-xl leading-relaxed max-w-[720px] mx-auto">
+            Unlike generic ERP solutions, SpyClass ERP is designed exclusively for schools.<br class="hidden lg:block" />
+            Here's why institutions trust us.
+        </p>
 
-         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 mt-12 sm:mt-16">
-             <!-- Single Card -->
-             <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition w-full max-w-[340px] mx-auto flex flex-col items-center text-center">
-                 <img src="<?php echo base_url(); ?>public/assets/imgs/page2/Line_Expand.png" alt="Tailored" class="h-12 mb-4" />
-                 <h3 class="text-xl font-bold text-zinc-900 mb-1">Tailored for Schools</h3>
-                 <p class="text-zinc-600 text-base leading-relaxed">
-                     Features designed for education-specific needs.
-                 </p>
-             </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 mt-12 sm:mt-16">
+            <!-- Single Card -->
+            <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition w-full max-w-[340px] mx-auto flex flex-col items-center text-center">
+                <img src="<?php echo base_url(); ?>public/assets/imgs/page2/Line_Expand.png" alt="Tailored" class="h-12 mb-4" />
+                <h3 class="text-xl font-bold text-zinc-900 mb-1">Tailored for Schools</h3>
+                <p class="text-zinc-600 text-base leading-relaxed">
+                    Features designed for education-specific needs.
+                </p>
+            </div>
 
-             <!-- Repeat for other cards -->
-             <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition w-full max-w-[340px] mx-auto flex flex-col items-center text-center">
-                 <img src="<?php echo base_url(); ?>public/assets/imgs/page2/light.png" alt="User Friendly" class="h-12 mb-4" />
-                 <h3 class="text-xl font-bold text-zinc-900 mb-1">User-Friendly Interface</h3>
-                 <p class="text-zinc-600 text-base leading-relaxed">
-                     No technical expertise required to use the system.
-                 </p>
-             </div>
+            <!-- Repeat for other cards -->
+            <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition w-full max-w-[340px] mx-auto flex flex-col items-center text-center">
+                <img src="<?php echo base_url(); ?>public/assets/imgs/page2/light.png" alt="User Friendly" class="h-12 mb-4" />
+                <h3 class="text-xl font-bold text-zinc-900 mb-1">User-Friendly Interface</h3>
+                <p class="text-zinc-600 text-base leading-relaxed">
+                    No technical expertise required to use the system.
+                </p>
+            </div>
 
-             <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition w-full max-w-[340px] mx-auto flex flex-col items-center text-center">
-                 <img src="<?php echo base_url(); ?>public/assets/imgs/page2/board-2 1.png" alt="Multi User" class="h-12 mb-4" />
-                 <h3 class="text-xl font-bold text-zinc-900 mb-1">Multi-User Access</h3>
-                 <p class="text-zinc-600 text-base leading-relaxed">
-                     Roles for admins, teachers, students, parents, and accountants.
-                 </p>
-             </div>
+            <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition w-full max-w-[340px] mx-auto flex flex-col items-center text-center">
+                <img src="<?php echo base_url(); ?>public/assets/imgs/page2/board-2 1.png" alt="Multi User" class="h-12 mb-4" />
+                <h3 class="text-xl font-bold text-zinc-900 mb-1">Multi-User Access</h3>
+                <p class="text-zinc-600 text-base leading-relaxed">
+                    Roles for admins, teachers, students, parents, and accountants.
+                </p>
+            </div>
 
-             <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition w-full max-w-[340px] mx-auto flex flex-col items-center text-center">
-                 <img src="<?php echo base_url(); ?>public/assets/imgs/page2/archive-content 1.png" alt="Secure" class="h-12 mb-4" />
-                 <h3 class="text-xl font-bold text-zinc-900 mb-1">Secure & Reliable</h3>
-                 <p class="text-zinc-600 text-base leading-relaxed">
-                     Cloud-based platform with data encryption and backup.
-                 </p>
-             </div>
+            <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition w-full max-w-[340px] mx-auto flex flex-col items-center text-center">
+                <img src="<?php echo base_url(); ?>public/assets/imgs/page2/archive-content 1.png" alt="Secure" class="h-12 mb-4" />
+                <h3 class="text-xl font-bold text-zinc-900 mb-1">Secure & Reliable</h3>
+                <p class="text-zinc-600 text-base leading-relaxed">
+                    Cloud-based platform with data encryption and backup.
+                </p>
+            </div>
 
-             <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition w-full max-w-[340px] mx-auto flex flex-col items-center text-center">
-                 <img src="<?php echo base_url(); ?>public/assets/imgs/page2/folder-favorite 1.png" alt="Scalable" class="h-12 mb-4" />
-                 <h3 class="text-xl font-bold text-zinc-900 mb-1">Scalable & Customizable</h3>
-                 <p class="text-zinc-600 text-base leading-relaxed">
-                     Grows with your institution's evolving needs.
-                 </p>
-             </div>
+            <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition w-full max-w-[340px] mx-auto flex flex-col items-center text-center">
+                <img src="<?php echo base_url(); ?>public/assets/imgs/page2/folder-favorite 1.png" alt="Scalable" class="h-12 mb-4" />
+                <h3 class="text-xl font-bold text-zinc-900 mb-1">Scalable & Customizable</h3>
+                <p class="text-zinc-600 text-base leading-relaxed">
+                    Grows with your institution's evolving needs.
+                </p>
+            </div>
 
-             <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition w-full max-w-[340px] mx-auto flex flex-col items-center text-center">
-                 <img src="<?php echo base_url(); ?>public/assets/imgs/page2/Capa_1.png" alt="Support" class="h-12 mb-4" />
-                 <h3 class="text-xl font-bold text-zinc-900 mb-1">24/7 Support & Training</h3>
-                 <p class="text-zinc-600 text-base leading-relaxed">
-                     Dedicated customer assistance to ensure smooth adoption.
-                 </p>
-             </div>
-         </div>
-     </div>
- </section>
-
-
- <!-- Discover Section -->
- <section class="py-8 sm:py-12 lg:py-16 bg-[#F8FAFC] mx-4 sm:mx-8 lg:mx-[145px] rounded-[24px]">
-     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-         <!-- Header -->
-         <div class="max-w-[1062px] w-full mx-auto text-center flex flex-col gap-[11px] mb-10 lg:mb-12">
-             <h2 class="font-bold text-zinc-800 text-[40px] sm:text-[48px] lg:text-[56px] leading-[125%] tracking-normal">
-                 Discover SpyClass ERP
-             </h2>
-             <p class="font-normal text-zinc-500 text-base lg:text-[20px] leading-[18px] tracking-normal">
-                 SpyClass ERP is an all-in-one school management software that digitizes and automates key
-                 operations, including:
-             </p>
-         </div>
-
-         <!-- Features Grid -->
-         <div class="max-w-[936px] mx-auto">
-             <ul class="list-none grid grid-cols-1 sm:grid-cols-2 gap-x-[40px] lg:gap-x-[72px] gap-y-[26px]">
-                 <!-- Single Feature Item -->
-                 <!-- Repeat this <li> block for each feature -->
-                 <li class="flex items-center gap-[17px]">
-                     <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
-                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                         </svg>
-                     </span>
-                     <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Student Information Management</span>
-                 </li>
-                 <li class="flex items-center gap-[17px]">
-                     <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
-                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                         </svg>
-                     </span>
-                     <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Library Management</span>
-                 </li>
-                 <li class="flex items-center gap-[17px]">
-                     <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
-                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                         </svg>
-                     </span>
-                     <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Attendance Tracking</span>
-                 </li>
-                 <li class="flex items-center gap-[17px]">
-                     <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
-                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                         </svg>
-                     </span>
-                     <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Communication Tools</span>
-                 </li>
-                 <li class="flex items-center gap-[17px]">
-                     <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
-                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                         </svg>
-                     </span>
-                     <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Fee & Finance Management</span>
-                 </li>
-                 <li class="flex items-center gap-[17px]">
-                     <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
-                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                         </svg>
-                     </span>
-                     <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Timetable & Scheduling</span>
-                 </li>
-                 <li class="flex items-center gap-[17px]">
-                     <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
-                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                         </svg>
-                     </span>
-                     <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Examination & Result Management</span>
-                 </li>
-                 <li class="flex items-center gap-[17px]">
-                     <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
-                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                         </svg>
-                     </span>
-                     <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">HR & Staff Management</span>
-                 </li>
-             </ul>
-         </div>
-     </div>
- </section>
+            <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition w-full max-w-[340px] mx-auto flex flex-col items-center text-center">
+                <img src="<?php echo base_url(); ?>public/assets/imgs/page2/Capa_1.png" alt="Support" class="h-12 mb-4" />
+                <h3 class="text-xl font-bold text-zinc-900 mb-1">24/7 Support & Training</h3>
+                <p class="text-zinc-600 text-base leading-relaxed">
+                    Dedicated customer assistance to ensure smooth adoption.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
 
+<!-- Discover Section -->
+<section class="py-8 sm:py-12 lg:py-16 bg-[#F8FAFC] mx-4 sm:mx-8 lg:mx-[145px] rounded-[24px]">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Header -->
+        <div class="max-w-[1062px] w-full mx-auto text-center flex flex-col gap-[11px] mb-10 lg:mb-12">
+            <h2 class="font-bold text-zinc-800 text-[40px] sm:text-[48px] lg:text-[56px] leading-[125%] tracking-normal">
+                Discover SpyClass ERP
+            </h2>
+            <p class="font-normal text-zinc-500 text-base lg:text-[20px] leading-[18px] tracking-normal">
+                SpyClass ERP is an all-in-one school management software that digitizes and automates key
+                operations, including:
+            </p>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="max-w-[936px] mx-auto">
+            <ul class="list-none grid grid-cols-1 sm:grid-cols-2 gap-x-[40px] lg:gap-x-[72px] gap-y-[26px]">
+                <!-- Single Feature Item -->
+                <!-- Repeat this <li> block for each feature -->
+                <li class="flex items-center gap-[17px]">
+                    <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                    <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Student Information Management</span>
+                </li>
+                <li class="flex items-center gap-[17px]">
+                    <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                    <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Library Management</span>
+                </li>
+                <li class="flex items-center gap-[17px]">
+                    <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                    <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Attendance Tracking</span>
+                </li>
+                <li class="flex items-center gap-[17px]">
+                    <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                    <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Communication Tools</span>
+                </li>
+                <li class="flex items-center gap-[17px]">
+                    <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                    <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Fee & Finance Management</span>
+                </li>
+                <li class="flex items-center gap-[17px]">
+                    <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                    <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Timetable & Scheduling</span>
+                </li>
+                <li class="flex items-center gap-[17px]">
+                    <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                    <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">Examination & Result Management</span>
+                </li>
+                <li class="flex items-center gap-[17px]">
+                    <span class="flex-shrink-0 bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                    <span class="font-medium text-zinc-800 text-[20px] leading-[100%] tracking-normal">HR & Staff Management</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 
 
- <script>
-     document.addEventListener('DOMContentLoaded', function() {
-         const wrapper = document.querySelector('.testimonials-wrapper');
-         const testimonials = document.querySelectorAll('.testimonial');
-         const prevButtons = document.querySelectorAll('.prev-testimonial');
-         const nextButtons = document.querySelectorAll('.next-testimonial');
-         let currentIndex = 0;
 
-         function updateSlider() {
-             const offset = -currentIndex * 100;
-             wrapper.style.transform = `translateX(${offset}%)`;
-         }
 
-         prevButtons.forEach(button => {
-             button.addEventListener('click', () => {
-                 if (currentIndex > 0) {
-                     currentIndex--;
-                     updateSlider();
-                 }
-             });
-         });
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const wrapper = document.querySelector('.testimonials-wrapper');
+        const testimonials = document.querySelectorAll('.testimonial');
+        const prevButtons = document.querySelectorAll('.prev-testimonial');
+        const nextButtons = document.querySelectorAll('.next-testimonial');
+        let currentIndex = 0;
 
-         nextButtons.forEach(button => {
-             button.addEventListener('click', () => {
-                 if (currentIndex < testimonials.length - 1) {
-                     currentIndex++;
-                     updateSlider();
-                 }
-             });
-         });
-     });
- </script>
+        function updateSlider() {
+            const offset = -currentIndex * 100;
+            wrapper.style.transform = `translateX(${offset}%)`;
+        }
+
+        prevButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    updateSlider();
+                }
+            });
+        });
+
+        nextButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                if (currentIndex < testimonials.length - 1) {
+                    currentIndex++;
+                    updateSlider();
+                }
+            });
+        });
+    });
+</script>

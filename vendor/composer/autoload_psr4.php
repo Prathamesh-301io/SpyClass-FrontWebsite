@@ -25,4 +25,5 @@ return array(
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Complex\\' => array($vendorDir . '/markbaker/complex/classes/src'),
+    'Brevo\\Client\\' => array($vendorDir . '/getbrevo/brevo-php/lib'),
 );
