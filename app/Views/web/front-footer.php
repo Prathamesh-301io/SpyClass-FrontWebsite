@@ -13,60 +13,61 @@
 
          <!-- Right Column: Form -->
          <div>
-            <form id="contactFormFinal" method="POST" action="<?php echo getenv('SUPERADMIN_BASE_URL') . 'lead/submit'; ?>" novalidate class="space-y-6">
+            <form id="contactFormFinal" method="POST" action="<?php echo getenv('SUPERADMIN_BASE_URL') . 'lead/submit'; ?>" novalidate class="space-y-4 sm:space-y-5">
 
-               <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                   <div>
-                     <label for="firstname" class="text-sm font-medium text-gray-800">First name</label>
-                     <input type="text" name="firstname" id="firstname" placeholder="John" autocomplete="given-name"
-                        class="mt-2 w-full rounded-xl border border-gray-300 px-4 py-3 shadow-sm text-gray-900 focus:border-[#7F56D9] focus:ring-2 focus:ring-[#7F56D9] placeholder:text-gray-400 sm:text-sm">
+                     <label for="firstname" class="block text-sm font-medium text-gray-700 mb-1">First name</label>
+                     <input type="text" name="firstname" id="firstname" placeholder="John"
+                        class="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400 shadow-sm focus:ring-2 focus:ring-[#7F56D9] focus:border-[#7F56D9] transition">
                      <p id="firstname-error" class="text-xs text-red-600 mt-1 h-4"></p>
                   </div>
+
                   <div>
-                     <label for="lastname" class="text-sm font-medium text-gray-800">Last name</label>
-                     <input type="text" name="lastname" id="lastname" placeholder="Doe" autocomplete="family-name"
-                        class="mt-2 w-full rounded-xl border border-gray-300 px-4 py-3 shadow-sm text-gray-900 focus:border-[#7F56D9] focus:ring-2 focus:ring-[#7F56D9] placeholder:text-gray-400 sm:text-sm">
+                     <label for="lastname" class="block text-sm font-medium text-gray-700 mb-1">Last name</label>
+                     <input type="text" name="lastname" id="lastname" placeholder="Doe"
+                        class="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400 shadow-sm focus:ring-2 focus:ring-[#7F56D9] focus:border-[#7F56D9] transition">
                      <p id="lastname-error" class="text-xs text-red-600 mt-1 h-4"></p>
                   </div>
                </div>
 
                <div>
-                  <label for="email" class="text-sm font-medium text-gray-800">Email</label>
-                  <input type="email" name="email" id="email" placeholder="you@company.com" autocomplete="email"
-                     class="mt-2 w-full rounded-xl border border-gray-300 px-4 py-3 shadow-sm text-gray-900 focus:border-[#7F56D9] focus:ring-2 focus:ring-[#7F56D9] placeholder:text-gray-400 sm:text-sm">
+                  <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                  <input type="email" name="email" id="email" placeholder="you@company.com"
+                     class="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400 shadow-sm focus:ring-2 focus:ring-[#7F56D9] focus:border-[#7F56D9] transition">
                   <p id="email-error" class="text-xs text-red-600 mt-1 h-4"></p>
                </div>
 
                <div>
-                  <label for="contact_number" class="text-sm font-medium text-gray-800">Phone number</label>
-                  <div class="relative mt-2">
-
-                     <input type="tel" name="contact_number" id="contact_number" placeholder="9876543210" autocomplete="tel"
-                        class="w-full pl-20 rounded-xl border border-gray-300 px-4 py-3 shadow-sm text-gray-900 focus:border-[#7F56D9] focus:ring-2 focus:ring-[#7F56D9] placeholder:text-gray-400 sm:text-sm">
-                  </div>
+                  <label for="contact_number" class="block text-sm font-medium text-gray-700 mb-1">Phone number</label>
+                  <input type="tel" name="contact_number" id="contact_number" placeholder="9876543210"
+                     class="w-full rounded-lg border border-gray-300 px-4 py-2.5 pl-4 text-sm text-gray-900 placeholder-gray-400 shadow-sm focus:ring-2 focus:ring-[#7F56D9] focus:border-[#7F56D9] transition">
                   <p id="contact_number-error" class="text-xs text-red-600 mt-1 h-4"></p>
                </div>
 
                <div>
-                  <label for="comment" class="text-sm font-medium text-gray-800">Message</label>
+                  <label for="comment" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
                   <textarea name="comment" id="comment" rows="4" placeholder="Your message..."
-                     class="mt-2 w-full rounded-xl border border-gray-300 px-4 py-3 shadow-sm text-gray-900 focus:border-[#7F56D9] focus:ring-2 focus:ring-[#7F56D9] placeholder:text-gray-400 sm:text-sm"></textarea>
+                     class="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400 shadow-sm focus:ring-2 focus:ring-[#7F56D9] focus:border-[#7F56D9] transition"></textarea>
                   <p id="comment-error" class="text-xs text-red-600 mt-1 h-4"></p>
                </div>
 
-               <div class="flex items-start gap-3">
-                  <input type="checkbox" id="agreement" name="agreement" class="mt-1 h-4 w-4 rounded text-[#7F56D9] border-gray-300 focus:ring-[#7F56D9]">
-                  <label for="agreement" class="text-sm text-gray-700">I agree to the <a href="#" class="text-[#7F56D9] font-medium underline">privacy policy</a>.</label>
-                  <p id="agreement-error" class="text-xs text-red-600 h-4"></p>
+               <div class="flex items-start gap-2 sm:gap-3">
+                  <input type="checkbox" id="agreement" name="agreement"
+                     class="mt-1 h-4 w-4 rounded text-[#7F56D9] border-gray-300 focus:ring-[#7F56D9]">
+                  <label for="agreement" class="text-sm text-gray-700 leading-snug">I agree to the <a href="#" class="text-[#7F56D9] font-medium underline">privacy policy</a>.</label>
                </div>
+               <p id="agreement-error" class="text-xs text-red-600 h-4"></p>
 
                <div>
                   <button type="submit" id="submit-button"
-                     class="w-full rounded-xl bg-[#7F56D9] px-6 py-3 text-sm font-semibold text-white shadow-lg hover:bg-[#6B47C9] transition-all duration-200">
+                     class="w-full rounded-lg bg-[#7F56D9] px-6 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-[#6B47C9] transition-all duration-200">
                      Send message
                   </button>
                </div>
+
             </form>
+
          </div>
 
       </div>

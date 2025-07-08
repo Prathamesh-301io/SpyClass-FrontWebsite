@@ -42,14 +42,15 @@
          <div
             class="container mx-auto max-w-[1440px] h-[82px] flex justify-between items-center px-4 sm:px-6 lg:px-8">
             <!-- Logo -->
-            <a class="text-3xl font-semibold leading-none transition-all duration-300 transform hover:scale-105 hover:rotate-3" href="<?php echo base_url(); ?>">
-               <img class="h-auto max-w-full transition-all duration-300 transform hover:scale-110 hover:rotate-6"
+            <a href="<?php echo base_url(); ?>"
+               class="inline-block group relative transition-all duration-300 ease-in-out">
+
+               <img
                   src="<?php echo base_url(); ?>/public/fassets/imgs/logos/SpyClass.png"
                   alt="SpyClass Logo"
-                  style="width: 175px; transition: all 0.3s ease;" />
+                  class="w-[150px] h-auto rounded-lg transition-all duration-500 ease-in-out group-hover:scale-105 group-hover:brightness-110 group-hover:rotate-[1deg] group-hover:p-2 group-hover:shadow-[0_8px_30px_rgba(106,27,154,0.3)]" />
             </a>
 
-            <!-- Desktop Navigation -->
             <?php $currentPage = service('uri')->getSegment(1); ?>
             <div class="hidden lg:flex space-x-2 xl:space-x-4">
                <a class="font-semibold py-2 px-4 rounded-lg <?= ($currentPage == '') ? 'text-purple-700 font-bold  bg-purple-100' : 'text-gray-700 hover:bg-gray-100'; ?>" href="<?php echo base_url(); ?>">Home</a>
@@ -58,7 +59,6 @@
                <a class="font-semibold py-2 px-4 rounded-lg <?= ($currentPage == 'usermanual') ? 'text-purple-700 font-bold  bg-purple-100' : 'text-gray-700 hover:bg-gray-100'; ?>" href="<?php echo base_url('usermanual'); ?>" target="_blank">User Manual</a>
             </div>
 
-            <!-- Mobile Menu Button -->
             <div class="lg:hidden">
                <button
                   class="navbar-burger flex items-center py-2 px-3 text-purple-700 border border-purple-700 rounded-md">
