@@ -16,10 +16,7 @@
                 Digitalizing School <span class="text-[#6A1B9A] font-semibold">Operations &</span><br />
                 <span class="text-[#6A1B9A] font-semibold">Management.</span>
             </h1>
-
-
         </div>
-
         <div
             class="mt-10 sm:mt-12 lg:mt-16 flex flex-col lg:flex-row justify-center items-center lg:items-start gap-10 lg:gap-20">
             <div class="w-full lg:max-w-[691px] text-center lg:text-left animate-fade-in-left">
